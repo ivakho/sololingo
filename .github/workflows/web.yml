@@ -1,14 +1,9 @@
-name: Deploy Vite App
+name: Deploy Vite App to GitHub Pages
 
 on:
   push:
     branches:
-      - main  
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write  
+      - main 
 
 jobs:
   build:
@@ -29,14 +24,8 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: dist
-
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist  
