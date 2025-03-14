@@ -1,36 +1,54 @@
-name: Deploy Vite App to GitHub Pages
+name: Netology AHJ
 
-on:
-  push:
-    branches:
-      - main  
+on: [push, pull_request]
 
+# Down scope as necessary via https://docs.github.com/en/actions/security-guides/automatic-token-authentication#modifying-the-permissions-for-the-github_token
 permissions:
-  id-token: write
+  checks: write
   contents: write
   pages: write
+  id-token: write
+  deployments: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    strategy:
+      matrix:
+        node-version: [18.x]
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Node.js
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: ${{ matrix.node-version }}
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
+      # - name: Run linters
+      #   run: npm run lint
+
+      # - name: Run test
+      #   run: npm run coverage
+
+      - name: Build
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist 
+          path: 'dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
