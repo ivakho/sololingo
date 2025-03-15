@@ -16,7 +16,7 @@ onMounted(() => {
 
 <template>
     <div class="container">
-        What is "{{ wordsState.computedRandomWord.number }}"日 in Japanese?
+        What is "{{ wordsState.computedRandomWord.number }}日" in Japanese?
     </div>
     <PopUp />
 </template>
