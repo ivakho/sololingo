@@ -75,11 +75,11 @@ const onContinueClick = () => {
 }
 
 .correct .popUp__button {
-  background-color: seagreen;
+  background-color: rgb(28, 255, 126);
 }
 
 .wrong .popUp__button {
-  background-color: firebrick;
+  background-color: rgb(255, 60, 60);
 }
 
 .popUp__text {
@@ -87,11 +87,11 @@ const onContinueClick = () => {
 }
 
 .correct .popUp__text {
-  color: seagreen;
+  color: rgb(28, 255, 126);
 }
 
 .wrong .popUp__text {
-  color: firebrick;
+  color: rgb(255, 60, 60);
 }
 
 .popUp__button:hover {

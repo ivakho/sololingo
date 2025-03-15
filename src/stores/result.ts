@@ -1,5 +1,6 @@
 import { ref, computed } from "vue";
 import { defineStore } from "pinia";
+import { useWordsStore } from "./words";
 
 interface ResultProps {
     text: string
@@ -7,15 +8,16 @@ interface ResultProps {
 }
 
 export const useResultStore = defineStore("result", () => {
+  const wordsStore = useWordsStore()
   const result = ref<ResultProps>({text:'', status: false});
   const popUp = ref<boolean>(false);
   const isHidden = ref<boolean>(true);
 
   function setResult(value: boolean) {
     if (value) {
-        result.value = {text: 'You are right!', status: true};
+        result.value = {text: 'Correct!', status: true};
     } else {
-        result.value = {text: 'Your are wrong!', status: false};
+        result.value = {text: `Wrong! It is ${wordsStore.computedRandomWord.jap}`, status: false};
     }
   }
 

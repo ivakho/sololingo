@@ -45,6 +45,7 @@ const getCardClass = () => {
   color: rgb(27, 27, 54);
 
   border-radius: 10px;
+
   border: 1px solid rgb(27, 27, 54);
 }
 
