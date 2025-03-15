@@ -1,21 +1,16 @@
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px;
+  margin: 0 auto; */
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
 }
 
 @media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
   #app {
     width: 100%;
-  }
-
-  @media (min-width: 1080px) {
-    #app {
-      font-size: 24px;
-    }
+    font-size: 24px;
   }
 }

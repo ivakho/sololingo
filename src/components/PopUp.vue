@@ -34,7 +34,7 @@ const onContinueClick = () => {
 <style scoped>
 .popUp {
   position: fixed;
-  bottom: 20px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
 
@@ -45,17 +45,18 @@ const onContinueClick = () => {
   gap: 5px;
 
   max-width: 1280px;
+  min-width: 375px;
   width: 100%;
 
   padding: 16px;
 
-  color: white;
   font-size: 18px;
+  color: white;
 
   border-radius: 8px;
   background-color: rgb(27, 27, 54);
-
   transition: opacity 0.7s;
+  box-sizing: border-box;
 }
 
 .hidden {

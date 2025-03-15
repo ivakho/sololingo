@@ -35,11 +35,14 @@ const handleAddWord = (newWord: string) => {
 .wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
 
   min-width: 375px;
 
   padding: 10px;
+
+  box-sizing: border-box;
 }
 
 </style>

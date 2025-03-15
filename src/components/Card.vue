@@ -38,14 +38,14 @@ const getCardClass = () => {
   justify-content: center;
   align-items: center;
 
+  min-width: 170px;
   width: 100%;
   height: 300px;
 
   color: rgb(27, 27, 54);
 
-  border: 1px solid rgb(27, 27, 54);
-  ;
   border-radius: 10px;
+  border: 1px solid rgb(27, 27, 54);
 }
 
 .card:hover {
