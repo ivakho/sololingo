@@ -1,6 +1,6 @@
 # Sololingo 
 
-![Логотип Onelingo](./src/assets/images/logo.png)
+![Логотип Sololingo](./src/assets/images/logo.png)
 
 **App for learning Japanese language**
 
@@ -8,9 +8,9 @@
 
 ## About
 
-Onelingo is a sleek and user-friendly app inspired by Duolingo, designed to help you master Japanese vocabulary effectively. It is based on the popular textbook *Minna No Nihongo* and offers interactive lessons tailored for learners at all levels.
+Sololingo is a sleek and user-friendly app inspired by Duolingo, designed to help you master Japanese vocabulary effectively. It is based on the popular textbook *Minna No Nihongo* and offers interactive lessons tailored for learners at all levels.
 
-Whether you're a beginner or looking to brush up on your skills, Onelingo provides an engaging experience through spaced repetition, quizzes, and gamified practice.
+Whether you're a beginner or looking to brush up on your skills, Sololingo provides an engaging experience through spaced repetition, quizzes, and gamified practice.
 
 ---
 
@@ -33,4 +33,4 @@ Whether you're a beginner or looking to brush up on your skills, Onelingo provid
 
 ## Get Started
 
-Jump into learning Japanese with Onelingo today and make your language journey fun and effective!
+Jump into learning Japanese with Sololingo today and make your language journey fun and effective!
