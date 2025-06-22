@@ -1,4 +1,4 @@
-import { ref, computed } from "vue";
+import { ref } from "vue";
 import { defineStore } from "pinia";
 import { useWordsStore } from "./words";
 
@@ -7,6 +7,7 @@ export const useCardsStore = defineStore("cards", () => {
     const cards = ref<string[]>([])
 
     const setRandomCards = () => {
+                console.log(wordsStore.computedRandomWord)
         if (wordsStore.computedRandomWord.jap.length === 0) {
             cards.value = [];
             return;

@@ -1,21 +1,32 @@
 <script setup lang="ts">
 import { useCardsStore } from '@/stores/cards';
 import { useResultStore } from '@/stores/result';
+import { useTopicsStore } from '@/stores/topics';
 import { useWordsStore } from '@/stores/words';
 import { computed } from 'vue';
 
 const wordsStore = useWordsStore()
 const resultStore = useResultStore()
 const cardsStore = useCardsStore()
+const topicsStore = useTopicsStore()
 
 const randomCards = computed(() => cardsStore.cards)
 
 const hanleCardClick = (word: string) => {
-  if (resultStore.popUp) {
-    return
+  if (resultStore.popUp) return;
+
+  const topic = topicsStore.topicName;
+  const targetWord = wordsStore.computedRandomWord;
+  let isCorrect = false;
+
+  if (topic === "Date numbers") {
+    isCorrect = word === targetWord.jap;
+  } else if (topic === "Unit #10") {
+    isCorrect = word === targetWord.jap;
+  } else {
+    isCorrect = false;
   }
 
-  const isCorrect = word === wordsStore.computedRandomWord.jap;
   resultStore.setResult(isCorrect);
   resultStore.setIsHidden(false);
   resultStore.showPopUp();

@@ -21,7 +21,6 @@ const onContinueClick = () => {
   resultStore.setIsHidden(true)
   resultStore.hidePopUp()
 }
-
 </script>
 
 <template>
