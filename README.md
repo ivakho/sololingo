@@ -1,4 +1,4 @@
-# Onelingo 
+# Sololingo 
 
 ![Логотип Onelingo](./src/assets/images/logo.png)
 
