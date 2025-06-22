@@ -1,33 +1,36 @@
-# onelingo
+# Onelingo 
 
-This template should help get you started developing with Vue 3 in Vite.
+![Логотип Onelingo](./src/assets/images/logo.png)
 
-## Recommended IDE Setup
+**App for learning Japanese language**
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Type Support for `.vue` Imports in TS
+## About
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Onelingo is a sleek and user-friendly app inspired by Duolingo, designed to help you master Japanese vocabulary effectively. It is based on the popular textbook *Minna No Nihongo* and offers interactive lessons tailored for learners at all levels.
 
-## Customize configuration
+Whether you're a beginner or looking to brush up on your skills, Onelingo provides an engaging experience through spaced repetition, quizzes, and gamified practice.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## Features
 
-```sh
-npm install
-```
+- 🎌 Vocabulary lessons based on *Minna No Nihongo* textbook  
+- 🧠 Spaced repetition system to help memorize words efficiently  
+- 🎯 Interactive quizzes and exercises for active learning  
+- 🏆 Gamification elements to keep you motivated  
+- 📱 Responsive design — learn anytime, anywhere  
+- 🌐 Accessible via web: no installation required
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
-npm run dev
-```
+## Website
 
-### Type-Check, Compile and Minify for Production
+[https://ivakho.github.io/sololingo/](https://ivakho.github.io/sololingo/)
 
-```sh
-npm run build
-```
+---
+
+## Get Started
+
+Jump into learning Japanese with Onelingo today and make your language journey fun and effective!
