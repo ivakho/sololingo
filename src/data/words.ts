@@ -139,7 +139,139 @@ export const UNIT10: WordProps[] = [
   { jap: "あいだ", eng: "between", rus: "между, посреди" },
 ];
 
+export const UNIT11: WordProps[] = [
+  // Глаголы
+  {
+    jap: "います（こどもが）",
+    eng: "to exist, to have (a child)",
+    rus: "есть (ребёнок)",
+  },
+  {
+    jap: "います（日本に）",
+    eng: "stay; be (in Japan)",
+    rus: "находиться (в Японии)",
+  },
+  {
+    jap: "かかります",
+    eng: "to need/require (time/money)",
+    rus: "требоваться (о времени/деньгах)",
+  },
+  {
+    jap: "やすみます",
+    eng: "to rest / take a day off",
+    rus: "отдыхать, брать выходной",
+  },
+  // Счётные слова ひとつ〜とお
+  { jap: "ひとつ", eng: "one", rus: "один" },
+  { jap: "ふたつ", eng: "two", rus: "два" },
+  { jap: "みっつ", eng: "three", rus: "три" },
+  { jap: "よっつ", eng: "four", rus: "четыре" },
+  { jap: "いつつ", eng: "five", rus: "пять" },
+  { jap: "むっつ", eng: "six", rus: "шесть" },
+  { jap: "ななつ", eng: "seven", rus: "семь" },
+  { jap: "やっつ", eng: "eight", rus: "восемь" },
+  { jap: "ここのつ", eng: "nine", rus: "девять" },
+  { jap: "とお", eng: "ten", rus: "десять" },
+  { jap: "いくつ", eng: "how many (things)", rus: "сколько (шт.)" },
+  // Люди и счёт
+  { jap: "ひとり", eng: "one person", rus: "один человек" },
+  { jap: "ふたり", eng: "two people", rus: "два человека" },
+  { jap: "〜にん", eng: "~ count (people)", rus: "〜 сч. суфф. (человек)" },
+  {
+    jap: "〜だい",
+    eng: "~ count (machines, vehicles)",
+    rus: "〜сч. суфф. (техники)",
+  },
+  { jap: "〜まい", eng: "~ count (flat things)", rus: "〜сч. суфф. (плоских)" },
+  { jap: "〜かい", eng: "~ count (times)", rus: "〜сч. суфф. (раз)" },
+  // Существительные
+  { jap: "りんご", eng: "apple", rus: "яблоко" },
+  { jap: "みかん", eng: "mandarin orange", rus: "мандарин" },
+  { jap: "サンドイッチ", eng: "sandwich", rus: "сэндвич" },
+  { jap: "カレーライス", eng: "curry with rice", rus: "карри с рисом" },
+  { jap: "アイスクリーム", eng: "ice cream", rus: "мороженое" },
+  { jap: "きって", eng: "stamp", rus: "почтовая марка" },
+  { jap: "はがき", eng: "postcard", rus: "почтовая открытка" },
+  { jap: "ふうとう", eng: "envelope", rus: "конверт" },
+  { jap: "こうくうびん", eng: "air mail", rus: "авиа‑почта" },
+  { jap: "ふなびん", eng: "sea mail", rus: "морская почта" },
+  { jap: "りょうしん", eng: "parents", rus: "родители" },
+  { jap: "きょうだい", eng: "brothers and sisters", rus: "братья и сёстры" },
+  { jap: "あに", eng: "elder brother (my)", rus: "старший брат (мой)" },
+  {
+    jap: "おにいさん",
+    eng: "elder brother (other)",
+    rus: "старший брат (чей-то)",
+  },
+  { jap: "あね", eng: "elder sister (my)", rus: "старшая сестра (моя)" },
+  {
+    jap: "おねえさん",
+    eng: "elder sister (other)",
+    rus: "старшая сестра (чья-то)",
+  },
+  { jap: "おとうと", eng: "younger brother (my)", rus: "младший брат (мой)" },
+  {
+    jap: "おとうとさん",
+    eng: "younger brother (other)",
+    rus: "младший брат (чей-то)",
+  },
+  { jap: "いもうと", eng: "younger sister (my)", rus: "младшая сестра (моя)" },
+  {
+    jap: "いもうとさん",
+    eng: "younger sister (other)",
+    rus: "младшая сестра (чья-то)",
+  },
+  { jap: "がいこく", eng: "foreign country", rus: "иностранная страна" },
+  {
+    jap: "りゅうがくせい",
+    eng: "exchange student",
+    rus: "иностранный студент",
+  },
+  { jap: "クラス", eng: "class", rus: "класс" },
+  // Наречия и выражения
+  { jap: "ぜんぶで", eng: "in total", rus: "всё, всего" },
+  { jap: "みんな", eng: "everyone", rus: "все" },
+  { jap: "〜だけ", eng: "only ~", rus: "только 〜" },
+  // Разговорные фразы
+  {
+    jap: "いいおてんきですね",
+    eng: "Nice weather, isn't it?",
+    rus: "Хорошая погода, не правда ли?",
+  },
+  {
+    jap: "おでかけですか",
+    eng: "Are you going out?",
+    rus: "Вы куда-то отправляетесь?",
+  },
+  { jap: "ちょっと〜まで", eng: "Just going to ~", rus: "Да, пройдусь до ~" },
+  {
+    jap: "いってらっしゃい",
+    eng: "Take care / see you",
+    rus: "Счастливого пути",
+  },
+  {
+    jap: "いってきます",
+    eng: "I’m off (see you later)",
+    rus: "Иду и вернусь",
+  },
+  {
+    jap: "かしこまりました",
+    eng: "I got you and it will be done (in restaurant)",
+    rus: "Слушаюсь и исполняю (в ресторане)",
+  },
+  // Страна
+  { jap: "オーストリア", eng: "Austria", rus: "Австрия" },
+  // Время
+  { jap: "じかん", eng: "Hours", rus: "Часов" },
+  { jap: "しゅうかん", eng: "Weeks", rus: "Недель" },
+  { jap: "かげつ", eng: "Months", rus: "Месяцев" },
+  { jap: "ねん", eng: "Years", rus: "Лет" },
+  { jap: "ぐらい", eng: "Approximately", rus: "Примерно" },
+  { jap: "どのくらい", eng: "Approximately how much", rus: "Сколько примерно" },
+];
+
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
   "Unit #10": UNIT10,
+  "Unit #11": UNIT11,
 };

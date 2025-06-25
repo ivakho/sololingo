@@ -2,12 +2,13 @@ import { ref, computed } from "vue";
 import { defineStore } from "pinia";
 import { nanoid } from "nanoid";
 import type { TopicsStoreProps } from "@/types/types";
-import { DATES, UNIT10 } from "@/data/words";
+import { DATES, UNIT10, UNIT11 } from "@/data/words";
 
 export const useTopicsStore = defineStore("topics", () => {
   const topics = ref<TopicsStoreProps[]>([
     { id: nanoid(), name: "Date numbers", value: DATES },
     { id: nanoid(), name: "Unit #10", value: UNIT10 },
+    { id: nanoid(), name: "Unit #11", value: UNIT11 },
   ]);
 
   const topicName = ref<string>("");

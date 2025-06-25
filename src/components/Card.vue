@@ -21,7 +21,7 @@ const hanleCardClick = (word: string) => {
 
   if (topic === "Date numbers") {
     isCorrect = word === targetWord.jap;
-  } else if (topic === "Unit #10") {
+  } else if (topic.startsWith("Unit")) {
     isCorrect = word === targetWord.jap;
   } else {
     isCorrect = false;

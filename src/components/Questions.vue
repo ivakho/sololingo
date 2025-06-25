@@ -23,7 +23,7 @@ const getQuestion = computed(() => {
         return `What is "${word.number}日" in Japanese?`;
     }
 
-    if (topic === "Unit #10") {
+    if (topic.startsWith("Unit")) {
         return `How do you say "${word.eng}" in Japanese?`;
     }
 

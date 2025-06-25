@@ -7,7 +7,6 @@ export const useCardsStore = defineStore("cards", () => {
     const cards = ref<string[]>([])
 
     const setRandomCards = () => {
-                console.log(wordsStore.computedRandomWord)
         if (wordsStore.computedRandomWord.jap.length === 0) {
             cards.value = [];
             return;
