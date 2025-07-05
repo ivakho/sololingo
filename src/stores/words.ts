@@ -21,7 +21,7 @@ export const useWordsStore = defineStore("words", () => {
   });
 
   function getRandomJapWord() {
-    if (words.value.length === 0) return "Нет слов";
+    if (words.value.length === 0) return "No words";
     const randomIndex = Math.floor(Math.random() * words.value.length);
     return words.value[randomIndex].jap;
   }

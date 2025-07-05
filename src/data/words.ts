@@ -94,6 +94,228 @@ export const DATES: WordProps[] = [
   },
 ];
 
+export const UNIT8: WordProps[] = [
+  {
+    jap: "ハンサム［な］",
+    eng: "handsome",
+    rus: "красавец, привлекательный (внешне), красивый – о мужчине",
+  },
+  { jap: "きれい［な］", eng: "beautiful, clean", rus: "красивый, чистый" },
+  { jap: "しずか［な］", eng: "quiet", rus: "тихий, спокойный" },
+  { jap: "にぎやか［な］", eng: "lively", rus: "оживлённый, шумный" },
+  { jap: "ゆうめい［な］", eng: "famous", rus: "знаменитый" },
+  {
+    jap: "しんせつ［な］",
+    eng: "kind, kind-hearted",
+    rus: "добрый, доброжелательный",
+  },
+  { jap: "げんき［な］", eng: "healthy, energetic", rus: "здоровый, бодрый" },
+  { jap: "ひま［な］", eng: "free (time)", rus: "свободный (о времени)" },
+  { jap: "べんり［な］", eng: "convenient", rus: "удобный" },
+  {
+    jap: "すてき［な］",
+    eng: "nice, wonderful",
+    rus: "красивый, изящный, чудесный",
+  },
+  { jap: "おおきい", eng: "big", rus: "большой, обширный" },
+  { jap: "ちいさい", eng: "small", rus: "маленький" },
+  { jap: "あたらしい", eng: "new", rus: "новый" },
+  { jap: "ふるい", eng: "old", rus: "старый (о неодушевленных предметах)" },
+  { jap: "いい（よい）", eng: "good", rus: "хороший" },
+  { jap: "わるい", eng: "bad", rus: "плохой" },
+  { jap: "あつい", eng: "hot", rus: "жаркий, горячий" },
+  {
+    jap: "さむい",
+    eng: "cold (weather)",
+    rus: "холодный (о температуре, напр., воздуха и пр.)",
+  },
+  { jap: "つめたい", eng: "cold (things/people)", rus: "холодный, прохладный" },
+  { jap: "むずかしい", eng: "difficult", rus: "трудный, сложный" },
+  { jap: "やさしい", eng: "easy", rus: "лёгкий, простой" },
+  {
+    jap: "たかい",
+    eng: "high, expensive",
+    rus: "высокий; дорогой (о размере предметов; о цене)",
+  },
+  { jap: "やすい", eng: "cheap", rus: "дешёвый (о цене)" },
+  { jap: "ひくい", eng: "low", rus: "низкий" },
+  {
+    jap: "おもしろい",
+    eng: "interesting",
+    rus: "интересный (фильм, книга, человек, исследование и т.п.)",
+  },
+  { jap: "おいしい", eng: "delicious", rus: "вкусный" },
+  {
+    jap: "いそがしい",
+    eng: "busy",
+    rus: "занятый (при нехватке времени для отдыха, хобби и пр.)",
+  },
+  {
+    jap: "たのしい",
+    eng: "enjoyable, fun",
+    rus: "радостный, приятный, весёлый",
+  },
+  { jap: "しろい", eng: "white", rus: "белый" },
+  { jap: "くろい", eng: "black", rus: "чёрный" },
+  { jap: "あかい", eng: "red", rus: "красный" },
+  { jap: "あおい", eng: "blue", rus: "синий, голубой" },
+  {
+    jap: "さくら",
+    eng: "cherry blossom",
+    rus: "сакура (дерево и/или цветы японской вишни)",
+  },
+  { jap: "やま", eng: "mountain", rus: "гора" },
+  { jap: "まち", eng: "town, city", rus: "город" },
+  { jap: "たべもの", eng: "food", rus: "еда, продукты" },
+  { jap: "ところ", eng: "place", rus: "место" },
+  { jap: "りょう", eng: "dormitory", rus: "общежитие" },
+  { jap: "レストラン", eng: "restaurant", rus: "ресторан" },
+  { jap: "せいかつ", eng: "life", rus: "жизнь" },
+  { jap: "[お]しごと", eng: "work; job", rus: "работа" },
+  { jap: "どう", eng: "how", rus: "как?" },
+  { jap: "どんな", eng: "what kind of", rus: "какой?" },
+  { jap: "とても", eng: "very", rus: "очень" },
+  { jap: "あまり", eng: "not so (with negatives)", rus: "не очень" },
+  { jap: "そして", eng: "and (then)", rus: "и затем" },
+  { jap: "〜が、〜", eng: "~…, but …", rus: "…, но …" },
+  { jap: "おげんきですか", eng: "How are you?", rus: "Как вы?" },
+  { jap: "そうですね", eng: "Ah, understand.", rus: "Ясно, понятно" },
+  {
+    jap: "もういちどいかがですか",
+    eng: "Won’t you have another?",
+    rus: "Не хотите ли еще?",
+  },
+  {
+    jap: "[いいえ]、けっこうです",
+    eng: "No, thank you. It's enough",
+    rus: "Нет, спасибо, достаточно.",
+  },
+  {
+    jap: "もう〜です（ね）",
+    eng: "It’s already ~, isn’t it?",
+    rus: "Уже ~, не так ли?",
+  },
+  {
+    jap: "そろそろしつれいします",
+    eng: "I should be leaving.",
+    rus: "Пора мне уходить.",
+  },
+  {
+    jap: "またいらっしゃってください",
+    eng: "Please come again.",
+    rus: "Приходите снова.",
+  },
+];
+
+export const UNIT9: WordProps[] = [
+  // Глаголы и прилагательные
+  { jap: "わかります", eng: "to understand", rus: "понимать" },
+  {
+    jap: "あります",
+    eng: "to have, to exist (non-living)",
+    rus: "иметь, быть (в наличии)",
+  },
+  { jap: "すき（な）", eng: "like, favorite", rus: "любимый" },
+  { jap: "きらい（な）", eng: "dislike, hate", rus: "нелюбимый, ненавистный" },
+  { jap: "じょうず（な）", eng: "skilled, good at", rus: "умелый" },
+  { jap: "へた（な）", eng: "unskilled, poor at", rus: "неумелый" },
+
+  // Существительные: еда, интересы
+  { jap: "のみもの", eng: "drink, beverage", rus: "напиток" },
+  { jap: "りょうり", eng: "dish, cuisine", rus: "блюдо, кухня" },
+  { jap: "スポーツ", eng: "sports", rus: "спорт" },
+  { jap: "やきゅう", eng: "baseball", rus: "бейсбол" },
+  { jap: "ダンス", eng: "dance", rus: "танец" },
+  { jap: "りょこう", eng: "trip, travel", rus: "поездка, тур" },
+  { jap: "おんがく", eng: "music", rus: "музыка" },
+  { jap: "うた", eng: "song", rus: "песня" },
+  { jap: "クラシック", eng: "classical music", rus: "классическая музыка" },
+  { jap: "ジャズ", eng: "jazz", rus: "джаз" },
+  { jap: "コンサート", eng: "concert", rus: "концерт" },
+  { jap: "カラオケ", eng: "karaoke", rus: "караоке" },
+  { jap: "かぶき", eng: "kabuki", rus: "кабуки (традиционный театр)" },
+
+  // Письменность
+  { jap: "え", eng: "picture, painting", rus: "картина" },
+  { jap: "じ", eng: "letter, character", rus: "буква, знак" },
+  { jap: "かんじ", eng: "kanji", rus: "иероглиф" },
+  { jap: "ひらがな", eng: "hiragana", rus: "хирагана" },
+  { jap: "カタカナ", eng: "katakana", rus: "катакана" },
+  { jap: "ローマじ", eng: "roman letters", rus: "латиница" },
+
+  // Прочее
+  { jap: "こまかい おかね", eng: "small change", rus: "мелочь, монеты" },
+  { jap: "チケット", eng: "ticket", rus: "билет" },
+  { jap: "じかん", eng: "time", rus: "время" },
+  { jap: "ようじ", eng: "errand, business", rus: "дело, занятие" },
+  {
+    jap: "やくそく",
+    eng: "appointment, promise",
+    rus: "обещание, договорённость",
+  },
+  { jap: "アルバイト", eng: "part-time job", rus: "подработка" },
+
+  // Семья
+  {
+    jap: "ごしゅじん",
+    eng: "husband (someone else's)",
+    rus: "муж (2-го или 3-го лица)",
+  },
+  { jap: "おっと / しゅじん", eng: "my husband", rus: "муж (мой)" },
+  {
+    jap: "おくさん",
+    eng: "wife (someone else's)",
+    rus: "жена (2-го или 3-го лица)",
+  },
+  { jap: "つま / かない", eng: "my wife", rus: "жена (моя)" },
+  { jap: "こども", eng: "child", rus: "ребёнок" },
+
+  // Наречия
+  { jap: "よく", eng: "well, often", rus: "хорошо; часто" },
+  {
+    jap: "だいたい",
+    eng: "mostly, approximately",
+    rus: "в основном; примерно",
+  },
+  { jap: "たくさん", eng: "many, a lot", rus: "много" },
+  { jap: "すこし", eng: "a little", rus: "немного" },
+  { jap: "ぜんぜん", eng: "not at all", rus: "совсем не (в отриц.)" },
+  { jap: "はやく", eng: "early; fast", rus: "рано; быстро" },
+
+  // Союзы и вопросы
+  { jap: "〜から", eng: "because, since", rus: "потому что, из-за" },
+  { jap: "どうして", eng: "why", rus: "почему" },
+
+  // Фразы
+  {
+    jap: "かして ください",
+    eng: "Let me use (your thing)",
+    rus: "Разрешите воспользоваться (вашей вещью)",
+  },
+  { jap: "いいですね", eng: "That's nice.", rus: "Хорошо. Отлично." },
+  {
+    jap: "ざんねんです[が]",
+    eng: "That's a pity, but...",
+    rus: "Очень жаль, но...",
+  },
+  {
+    jap: "いっしょに いかがですか",
+    eng: "Would you like to come with me?",
+    rus: "Не хотите ли пойти вместе?",
+  },
+  {
+    jap: "[〜は] ちょっと……",
+    eng: "Well, [~] is a bit...",
+    rus: "[~] немного сложно... (вежливый отказ)",
+  },
+  { jap: "だめですか", eng: "Is it no good?", rus: "Не получится?" },
+  {
+    jap: "また こんど おねがいします",
+    eng: "Maybe next time",
+    rus: "Может в следующий раз",
+  },
+];
+
 export const UNIT10: WordProps[] = [
   { jap: "あります", eng: "to be/to exist", rus: "быть/находиться (неодуш.)" },
   { jap: "います", eng: "to be/to stay", rus: "быть/находиться (одушевл.)" },
@@ -272,6 +494,8 @@ export const UNIT11: WordProps[] = [
 
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
+  "Unit #8": UNIT8,
+  "Unit #9": UNIT9,
   "Unit #10": UNIT10,
   "Unit #11": UNIT11,
 };
