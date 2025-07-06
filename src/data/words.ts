@@ -94,6 +94,126 @@ export const DATES: WordProps[] = [
   },
 ];
 
+export const UNIT6: WordProps[] = [
+  // Глаголы
+  { jap: "たべます", eng: "to eat", rus: "есть" },
+  { jap: "のみます", eng: "to drink", rus: "пить, глотать" },
+  { jap: "すいます（たばこを〜）", eng: "to smoke (a cigarette)", rus: "курить [сигареты, табак]" },
+  { jap: "みます", eng: "to see, to look at", rus: "смотреть, видеть" },
+  { jap: "ききます", eng: "to listen, to hear", rus: "слушать, слышать" },
+  { jap: "よみます", eng: "to read", rus: "читать, произносить" },
+  { jap: "かきます", eng: "to write / to draw", rus: "писать (письмо), рисовать (картину)" },
+  { jap: "かいます", eng: "to buy", rus: "покупать" },
+  { jap: "とります", eng: "to take (a photo)", rus: "снимать [фотографию]" },
+  { jap: "します", eng: "to do", rus: "делать" },
+  { jap: "あいます（ともだちに〜）", eng: "to meet (a friend)", rus: "встречать [друга]" },
+
+  // Существительные — еда и напитки
+  { jap: "ごはん", eng: "cooked rice, meal", rus: "еда, варёный рис" },
+  { jap: "あさごはん", eng: "breakfast", rus: "завтрак" },
+  { jap: "ひるごはん", eng: "lunch", rus: "обед" },
+  { jap: "ばんごはん", eng: "dinner", rus: "ужин" },
+  { jap: "パン", eng: "bread", rus: "хлеб" },
+  { jap: "たまご", eng: "egg", rus: "яйцо" },
+  { jap: "にく", eng: "meat", rus: "мясо (птицы и млекопитающих)" },
+  { jap: "さかな", eng: "fish", rus: "рыба" },
+  { jap: "やさい", eng: "vegetables", rus: "овощи" },
+  { jap: "くだもの", eng: "fruit", rus: "фрукты" },
+
+  // Напитки
+  { jap: "みず", eng: "water", rus: "вода" },
+  { jap: "おちゃ", eng: "green tea", rus: "чай, зелёный чай (японский чай)" },
+  { jap: "こうちゃ", eng: "black tea", rus: "чёрный чай (английский чай)" },
+  { jap: "ぎゅうにゅう（ミルク）", eng: "milk", rus: "молоко" },
+  { jap: "ジュース", eng: "juice", rus: "сок, безалкогольные напитки" },
+  { jap: "ビール", eng: "beer", rus: "пиво" },
+  { jap: "[お]さけ", eng: "sake, alcohol", rus: "спиртное, японское рисовое вино" },
+  { jap: "たばこ", eng: "cigarette", rus: "табак, сигареты" },
+
+  // Прочее
+  { jap: "てがみ", eng: "letter", rus: "письмо" },
+  { jap: "レポート", eng: "report", rus: "доклад" },
+  { jap: "しゃしん", eng: "photograph", rus: "фотография" },
+  { jap: "ビデオ", eng: "video", rus: "видео (видеокассета, видеомагнитофон)" },
+];
+
+
+export const UNIT7: WordProps[] = [
+  { jap: "きります", eng: "to cut", rus: "резать, нарезать" },
+  { jap: "おくります", eng: "to send", rus: "посылать, отправлять" },
+  { jap: "あげます", eng: "to give", rus: "давать (от себя кому-то)" },
+  { jap: "もらいます", eng: "to receive", rus: "получать (от кого-то себе)" },
+  { jap: "かします", eng: "to lend", rus: "давать в долг, на прокат" },
+  { jap: "かります", eng: "to borrow", rus: "брать в долг, на прокат" },
+  { jap: "おしえます", eng: "to teach", rus: "преподавать, обучать" },
+  { jap: "ならいます", eng: "to learn", rus: "изучать" },
+  {
+    jap: "かけます（でんわを〜）",
+    eng: "to make (a phone call)",
+    rus: "звонить [по телефону]",
+  },
+  { jap: "て", eng: "hand", rus: "рука, кисть" },
+  { jap: "はし", eng: "chopsticks", rus: "палочки для еды" },
+  { jap: "スプーン", eng: "spoon", rus: "ложка" },
+  { jap: "ナイフ", eng: "knife", rus: "нож" },
+  { jap: "フォーク", eng: "fork", rus: "вилка" },
+  { jap: "はさみ", eng: "scissors", rus: "ножницы" },
+  { jap: "パソコン", eng: "personal computer", rus: "персональный компьютер" },
+  { jap: "ケータイ", eng: "mobile phone", rus: "мобильный телефон" },
+  { jap: "メール", eng: "e-mail", rus: "электронное письмо (мейл)" },
+  { jap: "ねんがじょう", eng: "New Year’s card", rus: "новогодняя открытка" },
+  { jap: "パンチ", eng: "hole punch", rus: "дырокол" },
+  { jap: "ホッチキス", eng: "stapler", rus: "степлер" },
+  { jap: "セロテープ", eng: "scotch tape", rus: "скотч, клейкая лента" },
+  { jap: "けしゴム", eng: "eraser", rus: "ластик, резинка" },
+  { jap: "かみ", eng: "paper", rus: "бумага" },
+  { jap: "はな", eng: "flower", rus: "цветок, цветы" },
+  { jap: "シャツ", eng: "shirt", rus: "рубашка" },
+  { jap: "プレゼント", eng: "present", rus: "подарок" },
+  { jap: "にもつ", eng: "baggage, parcel", rus: "багаж, груз, посылка" },
+  { jap: "おかね", eng: "money", rus: "деньги" },
+  { jap: "きっぷ", eng: "ticket", rus: "билет (на транспорт)" },
+  { jap: "クリスマス", eng: "Christmas", rus: "Рождество" },
+  { jap: "ちち", eng: "(my) father", rus: "отец (мой)" },
+  { jap: "はは", eng: "(my) mother", rus: "мать (моя)" },
+  { jap: "おとうさん", eng: "(someone’s) father", rus: "отец (чей-то)" },
+  { jap: "おかあさん", eng: "(someone’s) mother", rus: "мать (чья-то)" },
+  { jap: "もう", eng: "already", rus: "уже" },
+  { jap: "まだ", eng: "not yet", rus: "ещё не" },
+  { jap: "これから", eng: "from now on, soon", rus: "с этих пор, скоро" },
+  {
+    jap: "（〜、）すてきですね。",
+    eng: "How [~] nice!",
+    rus: "Как это [~] прекрасно!",
+  },
+  { jap: "いらっしゃい。", eng: "Welcome.", rus: "Добро пожаловать." },
+  {
+    jap: "どうぞ おあがり ください。",
+    eng: "Please come in.",
+    rus: "Заходите, пожалуйста.",
+  },
+  {
+    jap: "しつれいします。",
+    eng: "Excuse me.",
+    rus: "Извините за беспокойство.",
+  },
+  {
+    jap: "〜は いかがですか。",
+    eng: "Would you like some ~?",
+    rus: "Не хотите ли [~]?",
+  },
+  {
+    jap: "いただきます。",
+    eng: "Let’s eat (before meal)",
+    rus: "Приятного аппетита / Приму с благодарностью",
+  },
+  {
+    jap: "ごちそうさまでした。",
+    eng: "Thank you for the meal",
+    rus: "Спасибо за угощение",
+  },
+];
+
 export const UNIT8: WordProps[] = [
   {
     jap: "ハンサム［な］",
@@ -494,6 +614,7 @@ export const UNIT11: WordProps[] = [
 
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
+  "Unit #7": UNIT7,
   "Unit #8": UNIT8,
   "Unit #9": UNIT9,
   "Unit #10": UNIT10,
