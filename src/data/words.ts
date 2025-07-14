@@ -94,21 +94,172 @@ export const DATES: WordProps[] = [
   },
 ];
 
+export const UNIT5: WordProps[] = [
+  { jap: "いきます", eng: "to go", rus: "идти" },
+  { jap: "きます", eng: "to come", rus: "приходить" },
+  {
+    jap: "かえります",
+    eng: "to return, to go home",
+    rus: "уходить домой, возвращаться",
+  },
+  { jap: "がっこう", eng: "school", rus: "школа" },
+  { jap: "スーパー", eng: "supermarket", rus: "супермаркет" },
+  { jap: "えき", eng: "station", rus: "станция, вокзал" },
+  { jap: "ひこうき", eng: "airplane", rus: "самолёт" },
+  { jap: "ふね", eng: "ship", rus: "корабль" },
+  { jap: "でんしゃ", eng: "train", rus: "поезд" },
+  { jap: "ちかてつ", eng: "subway", rus: "метро" },
+  {
+    jap: "しんかんせん",
+    eng: "Shinkansen, bullet train",
+    rus: "скоростная железная дорога (Синкансэн)",
+  },
+  { jap: "バス", eng: "bus", rus: "автобус" },
+  { jap: "タクシー", eng: "taxi", rus: "такси" },
+  { jap: "じてんしゃ", eng: "bicycle", rus: "велосипед" },
+  { jap: "あるいて", eng: "on foot", rus: "пешком" },
+  { jap: "ひと", eng: "person", rus: "человек" },
+  { jap: "ともだち", eng: "friend", rus: "друг" },
+  { jap: "かれ", eng: "he / boyfriend", rus: "он, бойфренд, любовник" },
+  {
+    jap: "かのじょ",
+    eng: "she / girlfriend",
+    rus: "она, гёрлфренд, любовница",
+  },
+  { jap: "かぞく", eng: "family", rus: "семья" },
+  { jap: "ひとりで", eng: "alone", rus: "один, одинокий" },
+  { jap: "せんしゅう", eng: "last week", rus: "прошлая неделя" },
+  { jap: "こんしゅう", eng: "this week", rus: "эта (текущая) неделя" },
+  { jap: "らいしゅう", eng: "next week", rus: "следующая неделя" },
+  { jap: "せんげつ", eng: "last month", rus: "прошлый месяц" },
+  { jap: "こんげつ", eng: "this month", rus: "этот (текущий) месяц" },
+  { jap: "らいげつ", eng: "next month", rus: "следующий месяц" },
+  { jap: "きょねん", eng: "last year", rus: "прошлый год" },
+  { jap: "ことし", eng: "this year", rus: "этот (текущий) год" },
+  { jap: "らいねん", eng: "next year", rus: "следующий год" },
+  { jap: "～ねん", eng: "― year", rus: "―ый (―ой, ―ий) год" },
+  { jap: "なんねん", eng: "what year", rus: "Какой год?" },
+  { jap: "～がつ", eng: "― month", rus: "месяц года (1-ый, 2-ой и т.д.)" },
+  { jap: "なんがつ", eng: "what month", rus: "Какой месяц?" },
+  {
+    jap: "ついたち",
+    eng: "1st (day of the month)",
+    rus: "первое число (месяца)",
+  },
+  {
+    jap: "ふつか",
+    eng: "2nd (day of the month)",
+    rus: "второе число (месяца)",
+  },
+  {
+    jap: "みっか",
+    eng: "3rd (day of the month)",
+    rus: "третье число (месяца)",
+  },
+  {
+    jap: "よっか",
+    eng: "4th (day of the month)",
+    rus: "четвёртое число (месяца)",
+  },
+  { jap: "いつか", eng: "5th (day of the month)", rus: "пятое число (месяца)" },
+  {
+    jap: "むいか",
+    eng: "6th (day of the month)",
+    rus: "шестое число (месяца)",
+  },
+  {
+    jap: "なのか",
+    eng: "7th (day of the month)",
+    rus: "седьмое число (месяца)",
+  },
+  {
+    jap: "ようか",
+    eng: "8th (day of the month)",
+    rus: "восьмое число (месяца)",
+  },
+  {
+    jap: "ここのか",
+    eng: "9th (day of the month)",
+    rus: "девятое число (месяца)",
+  },
+  {
+    jap: "とおか",
+    eng: "10th (day of the month)",
+    rus: "десятое число (месяца)",
+  },
+  {
+    jap: "じゅうよっか",
+    eng: "14th (day of the month)",
+    rus: "четырнадцатое число (месяца)",
+  },
+  {
+    jap: "はつか",
+    eng: "20th (day of the month)",
+    rus: "двадцатое число (месяца)",
+  },
+  {
+    jap: "にじゅうよっか",
+    eng: "24th (day of the month)",
+    rus: "двадцать четвёртое число (месяца)",
+  },
+  { jap: "～にち", eng: "― day, ―th", rus: "―е число, ― дней" },
+  {
+    jap: "なんにち",
+    eng: "what day, how many days",
+    rus: "какое число / сколько дней",
+  },
+  { jap: "いつ", eng: "when", rus: "когда" },
+  { jap: "たんじょうび", eng: "birthday", rus: "день рождения" },
+  {
+    jap: "そうですね。",
+    eng: "That's right.",
+    rus: "Да, не так ли. / Да, вы правы.",
+  },
+  {
+    jap: "［どうも］ありがとうございました。",
+    eng: "Thank you very much.",
+    rus: "Большое спасибо!",
+  },
+  {
+    jap: "どういたしまして。",
+    eng: "You're welcome.",
+    rus: "Не за что. / Не стоит благодарности.",
+  },
+  { jap: "―ばんせん", eng: "Platform No.―", rus: "платформа (путь) №―" },
+  { jap: "つぎの", eng: "next", rus: "следующий" },
+  {
+    jap: "ふつう",
+    eng: "local (train)",
+    rus: "обычный (со всеми остановками) поезд",
+  },
+  { jap: "きゅうこう", eng: "express train", rus: "поезд-экспресс" },
+  { jap: "とっきゅう", eng: "fast train", rus: "скорый поезд" },
+];
+
 export const UNIT6: WordProps[] = [
-  // Глаголы
   { jap: "たべます", eng: "to eat", rus: "есть" },
   { jap: "のみます", eng: "to drink", rus: "пить, глотать" },
-  { jap: "すいます（たばこを〜）", eng: "to smoke (a cigarette)", rus: "курить [сигареты, табак]" },
+  {
+    jap: "すいます（たばこを〜）",
+    eng: "to smoke (a cigarette)",
+    rus: "курить [сигареты, табак]",
+  },
   { jap: "みます", eng: "to see, to look at", rus: "смотреть, видеть" },
   { jap: "ききます", eng: "to listen, to hear", rus: "слушать, слышать" },
   { jap: "よみます", eng: "to read", rus: "читать, произносить" },
-  { jap: "かきます", eng: "to write / to draw", rus: "писать (письмо), рисовать (картину)" },
+  {
+    jap: "かきます",
+    eng: "to write / to draw",
+    rus: "писать (письмо), рисовать (картину)",
+  },
   { jap: "かいます", eng: "to buy", rus: "покупать" },
   { jap: "とります", eng: "to take (a photo)", rus: "снимать [фотографию]" },
   { jap: "します", eng: "to do", rus: "делать" },
-  { jap: "あいます（ともだちに〜）", eng: "to meet (a friend)", rus: "встречать [друга]" },
-
-  // Существительные — еда и напитки
+  {
+    jap: "あいます（ともだちに〜）",
+    eng: "to meet (a friend)",
+    rus: "встречать [друга]",
+  },
   { jap: "ごはん", eng: "cooked rice, meal", rus: "еда, варёный рис" },
   { jap: "あさごはん", eng: "breakfast", rus: "завтрак" },
   { jap: "ひるごはん", eng: "lunch", rus: "обед" },
@@ -119,24 +270,72 @@ export const UNIT6: WordProps[] = [
   { jap: "さかな", eng: "fish", rus: "рыба" },
   { jap: "やさい", eng: "vegetables", rus: "овощи" },
   { jap: "くだもの", eng: "fruit", rus: "фрукты" },
-
-  // Напитки
   { jap: "みず", eng: "water", rus: "вода" },
   { jap: "おちゃ", eng: "green tea", rus: "чай, зелёный чай (японский чай)" },
   { jap: "こうちゃ", eng: "black tea", rus: "чёрный чай (английский чай)" },
   { jap: "ぎゅうにゅう（ミルク）", eng: "milk", rus: "молоко" },
   { jap: "ジュース", eng: "juice", rus: "сок, безалкогольные напитки" },
   { jap: "ビール", eng: "beer", rus: "пиво" },
-  { jap: "[お]さけ", eng: "sake, alcohol", rus: "спиртное, японское рисовое вино" },
+  {
+    jap: "[お]さけ",
+    eng: "sake, alcohol",
+    rus: "спиртное, японское рисовое вино",
+  },
   { jap: "たばこ", eng: "cigarette", rus: "табак, сигареты" },
-
-  // Прочее
   { jap: "てがみ", eng: "letter", rus: "письмо" },
   { jap: "レポート", eng: "report", rus: "доклад" },
   { jap: "しゃしん", eng: "photograph", rus: "фотография" },
   { jap: "ビデオ", eng: "video", rus: "видео (видеокассета, видеомагнитофон)" },
+  { jap: "みせ", eng: "shop", rus: "магазин, мастерская" },
+  { jap: "にわ", eng: "garden", rus: "сад" },
+  {
+    jap: "しゅくだい",
+    eng: "homework",
+    rus: "домашнее задание（～をします: делать домашнее задание）",
+  },
+  {
+    jap: "テニス",
+    eng: "tennis",
+    rus: "теннис（～をします: играть в теннис）",
+  },
+  {
+    jap: "サッカー",
+    eng: "soccer",
+    rus: "футбол（～をします: играть в футбол）",
+  },
+  {
+    jap: "[お]はなみ",
+    eng: "cherry blossom viewing",
+    rus: "любование цветением сакуры（～をします: любоваться цветущей сакурой）",
+  },
+  { jap: "なに", eng: "what", rus: "что (вопросительное местоимение)" },
+  { jap: "いっしょに", eng: "together", rus: "вместе" },
+  {
+    jap: "ちょっと",
+    eng: "a little, a bit",
+    rus: "немного (например: о времени, о количестве вещей и т.д.)",
+  },
+  { jap: "いつも", eng: "always", rus: "всегда" },
+  { jap: "ときどき", eng: "sometimes", rus: "иногда" },
+  { jap: "それから", eng: "and then, after that", rus: "после, далее, затем" },
+  { jap: "ええ", eng: "yes", rus: "да" },
+  {
+    jap: "いいですね。",
+    eng: "That's good. / Sounds great.",
+    rus: "Хорошо! С удовольствием. Замечательно! (выражение одобрения или согласия)",
+  },
+  { jap: "わかりました。", eng: "I understood.", rus: "Понятно." },
+  {
+    jap: "なんですか。",
+    eng: "What?",
+    rus: "Да? Что? (в ответ на обращение собеседника с вопросом или просьбой)",
+  },
+  {
+    jap: "じゃ、また（あした）。",
+    eng: "Well then, see you (tomorrow).",
+    rus: "Пока, [до завтра].",
+  },
 ];
-
 
 export const UNIT7: WordProps[] = [
   { jap: "きります", eng: "to cut", rus: "резать, нарезать" },
@@ -482,7 +681,6 @@ export const UNIT10: WordProps[] = [
 ];
 
 export const UNIT11: WordProps[] = [
-  // Глаголы
   {
     jap: "います（こどもが）",
     eng: "to exist, to have (a child)",
@@ -503,7 +701,6 @@ export const UNIT11: WordProps[] = [
     eng: "to rest / take a day off",
     rus: "отдыхать, брать выходной",
   },
-  // Счётные слова ひとつ〜とお
   { jap: "ひとつ", eng: "one", rus: "один" },
   { jap: "ふたつ", eng: "two", rus: "два" },
   { jap: "みっつ", eng: "three", rus: "три" },
@@ -515,7 +712,6 @@ export const UNIT11: WordProps[] = [
   { jap: "ここのつ", eng: "nine", rus: "девять" },
   { jap: "とお", eng: "ten", rus: "десять" },
   { jap: "いくつ", eng: "how many (things)", rus: "сколько (шт.)" },
-  // Люди и счёт
   { jap: "ひとり", eng: "one person", rus: "один человек" },
   { jap: "ふたり", eng: "two people", rus: "два человека" },
   { jap: "〜にん", eng: "~ count (people)", rus: "〜 сч. суфф. (человек)" },
@@ -526,7 +722,6 @@ export const UNIT11: WordProps[] = [
   },
   { jap: "〜まい", eng: "~ count (flat things)", rus: "〜сч. суфф. (плоских)" },
   { jap: "〜かい", eng: "~ count (times)", rus: "〜сч. суфф. (раз)" },
-  // Существительные
   { jap: "りんご", eng: "apple", rus: "яблоко" },
   { jap: "みかん", eng: "mandarin orange", rus: "мандарин" },
   { jap: "サンドイッチ", eng: "sandwich", rus: "сэндвич" },
@@ -570,11 +765,9 @@ export const UNIT11: WordProps[] = [
     rus: "иностранный студент",
   },
   { jap: "クラス", eng: "class", rus: "класс" },
-  // Наречия и выражения
   { jap: "ぜんぶで", eng: "in total", rus: "всё, всего" },
   { jap: "みんな", eng: "everyone", rus: "все" },
   { jap: "〜だけ", eng: "only ~", rus: "только 〜" },
-  // Разговорные фразы
   {
     jap: "いいおてんきですね",
     eng: "Nice weather, isn't it?",
@@ -601,9 +794,7 @@ export const UNIT11: WordProps[] = [
     eng: "I got you and it will be done (in restaurant)",
     rus: "Слушаюсь и исполняю (в ресторане)",
   },
-  // Страна
   { jap: "オーストリア", eng: "Austria", rus: "Австрия" },
-  // Время
   { jap: "じかん", eng: "Hours", rus: "Часов" },
   { jap: "しゅうかん", eng: "Weeks", rus: "Недель" },
   { jap: "かげつ", eng: "Months", rus: "Месяцев" },
@@ -614,6 +805,8 @@ export const UNIT11: WordProps[] = [
 
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
+  "Unit #5": UNIT5,
+  "Unit #6": UNIT6,
   "Unit #7": UNIT7,
   "Unit #8": UNIT8,
   "Unit #9": UNIT9,
