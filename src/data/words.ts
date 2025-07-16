@@ -94,6 +94,97 @@ export const DATES: WordProps[] = [
   },
 ];
 
+export const UNIT4: WordProps[] = [
+  { jap: "おきます", eng: "get up, wake up", rus: "вставать, просыпаться" },
+  {
+    jap: "ねます",
+    eng: "go to bed, sleep",
+    rus: "ложиться спать, спать, пребывать в покое",
+  },
+  { jap: "はたらきます", eng: "work", rus: "работать" },
+  {
+    jap: "やすみます",
+    eng: "rest, take a day off",
+    rus: "отдыхать, брать отпуск",
+  },
+  { jap: "べんきょうします", eng: "study", rus: "заниматься, учиться" },
+  { jap: "おわります", eng: "finish, end", rus: "заканчивать, заканчиваться" },
+  { jap: "デパート", eng: "department store", rus: "универмаг" },
+  { jap: "ぎんこう", eng: "bank", rus: "банк" },
+  {
+    jap: "ゆうびんきょく",
+    eng: "post office",
+    rus: "почта, почтовое отделение",
+  },
+  { jap: "としょかん", eng: "library", rus: "библиотека" },
+  { jap: "びじゅつかん", eng: "art museum", rus: "художественный музей" },
+  { jap: "いま", eng: "now", rus: "сейчас" },
+  { jap: "～じ", eng: "～ hours (o'clock)", rus: "～ часов" },
+  { jap: "～ふん（～ぷん）", eng: "～ minutes", rus: "～ минут" },
+  { jap: "はん", eng: "half", rus: "половина (например: половина седьмого)" },
+  { jap: "なんじ", eng: "what time", rus: "сколько времени" },
+  { jap: "なんぷん", eng: "how many minutes", rus: "сколько минут" },
+  { jap: "ごぜん", eng: "a.m.", rus: "первая половина дня" },
+  { jap: "ごご", eng: "p.m.", rus: "вторая половина дня" },
+  { jap: "あさ", eng: "morning", rus: "утро" },
+  { jap: "ひる", eng: "noon", rus: "день" },
+  {
+    jap: "ばん（よる）",
+    eng: "evening (late evening)",
+    rus: "вечер (поздний вечер)",
+  },
+  { jap: "おととい", eng: "day before yesterday", rus: "позавчера" },
+  { jap: "きのう", eng: "yesterday", rus: "вчера" },
+  { jap: "きょう", eng: "today", rus: "сегодня" },
+  { jap: "あした", eng: "tomorrow", rus: "завтра" },
+  { jap: "あさって", eng: "day after tomorrow", rus: "послезавтра" },
+  { jap: "けさ", eng: "this morning", rus: "сегодня утром" },
+  { jap: "こんばん", eng: "this evening", rus: "сегодня вечером" },
+  {
+    jap: "やすみ",
+    eng: "holiday, break",
+    rus: "выходной день, праздничный день; отдых, перерыв",
+  },
+  { jap: "ひるやすみ", eng: "lunch break", rus: "обеденный перерыв" },
+  { jap: "しけん", eng: "exam", rus: "экзамен" },
+  {
+    jap: "かいぎ",
+    eng: "meeting",
+    rus: "собрание, заседание, совещание\n（～をします: проводить собрание, устраивать совещание）",
+  },
+  { jap: "えいが", eng: "movie", rus: "кинофильм" },
+  { jap: "まいあさ", eng: "every morning", rus: "каждое утро" },
+  { jap: "まいばん", eng: "every night", rus: "каждый вечер" },
+  { jap: "まいにち", eng: "every day", rus: "каждый день" },
+  { jap: "げつようび", eng: "Monday", rus: "понедельник" },
+  { jap: "かようび", eng: "Tuesday", rus: "вторник" },
+  { jap: "すいようび", eng: "Wednesday", rus: "среда" },
+  { jap: "もくようび", eng: "Thursday", rus: "четверг" },
+  { jap: "きんようび", eng: "Friday", rus: "пятница" },
+  { jap: "どようび", eng: "Saturday", rus: "суббота" },
+  { jap: "にちようび", eng: "Sunday", rus: "воскресенье" },
+  { jap: "なんようび", eng: "what day of the week", rus: "какой день недели" },
+  { jap: "～から", eng: "from ～", rus: "с ～" },
+  { jap: "～まで", eng: "until ～", rus: "до ～" },
+  {
+    jap: "～と～",
+    eng: "and",
+    rus: "и (соединительная частица служит для связи однородных именных членов предложения)",
+  },
+  {
+    jap: "たいへんですね。",
+    eng: "That's tough, isn't it?",
+    rus: "Да, ужасно. (выражение сочувствия)",
+  },
+  { jap: "ばんごう", eng: "number", rus: "номер (телефона, квартиры и т.п.)" },
+  { jap: "なんばん", eng: "what number", rus: "какой номер" },
+  {
+    jap: "そちら",
+    eng: "your place (polite)",
+    rus: "у вас (т.е. у собеседника, в месте нахождения собеседника при звонке в универмаг, музей, фирму и т.п.)",
+  },
+];
+
 export const UNIT5: WordProps[] = [
   { jap: "いきます", eng: "to go", rus: "идти" },
   { jap: "きます", eng: "to come", rus: "приходить" },
@@ -527,7 +618,6 @@ export const UNIT8: WordProps[] = [
 ];
 
 export const UNIT9: WordProps[] = [
-  // Глаголы и прилагательные
   { jap: "わかります", eng: "to understand", rus: "понимать" },
   {
     jap: "あります",
@@ -538,8 +628,6 @@ export const UNIT9: WordProps[] = [
   { jap: "きらい（な）", eng: "dislike, hate", rus: "нелюбимый, ненавистный" },
   { jap: "じょうず（な）", eng: "skilled, good at", rus: "умелый" },
   { jap: "へた（な）", eng: "unskilled, poor at", rus: "неумелый" },
-
-  // Существительные: еда, интересы
   { jap: "のみもの", eng: "drink, beverage", rus: "напиток" },
   { jap: "りょうり", eng: "dish, cuisine", rus: "блюдо, кухня" },
   { jap: "スポーツ", eng: "sports", rus: "спорт" },
@@ -553,16 +641,12 @@ export const UNIT9: WordProps[] = [
   { jap: "コンサート", eng: "concert", rus: "концерт" },
   { jap: "カラオケ", eng: "karaoke", rus: "караоке" },
   { jap: "かぶき", eng: "kabuki", rus: "кабуки (традиционный театр)" },
-
-  // Письменность
   { jap: "え", eng: "picture, painting", rus: "картина" },
   { jap: "じ", eng: "letter, character", rus: "буква, знак" },
   { jap: "かんじ", eng: "kanji", rus: "иероглиф" },
   { jap: "ひらがな", eng: "hiragana", rus: "хирагана" },
   { jap: "カタカナ", eng: "katakana", rus: "катакана" },
   { jap: "ローマじ", eng: "roman letters", rus: "латиница" },
-
-  // Прочее
   { jap: "こまかい おかね", eng: "small change", rus: "мелочь, монеты" },
   { jap: "チケット", eng: "ticket", rus: "билет" },
   { jap: "じかん", eng: "time", rus: "время" },
@@ -573,8 +657,6 @@ export const UNIT9: WordProps[] = [
     rus: "обещание, договорённость",
   },
   { jap: "アルバイト", eng: "part-time job", rus: "подработка" },
-
-  // Семья
   {
     jap: "ごしゅじん",
     eng: "husband (someone else's)",
@@ -588,8 +670,6 @@ export const UNIT9: WordProps[] = [
   },
   { jap: "つま / かない", eng: "my wife", rus: "жена (моя)" },
   { jap: "こども", eng: "child", rus: "ребёнок" },
-
-  // Наречия
   { jap: "よく", eng: "well, often", rus: "хорошо; часто" },
   {
     jap: "だいたい",
@@ -600,12 +680,8 @@ export const UNIT9: WordProps[] = [
   { jap: "すこし", eng: "a little", rus: "немного" },
   { jap: "ぜんぜん", eng: "not at all", rus: "совсем не (в отриц.)" },
   { jap: "はやく", eng: "early; fast", rus: "рано; быстро" },
-
-  // Союзы и вопросы
   { jap: "〜から", eng: "because, since", rus: "потому что, из-за" },
   { jap: "どうして", eng: "why", rus: "почему" },
-
-  // Фразы
   {
     jap: "かして ください",
     eng: "Let me use (your thing)",
@@ -805,6 +881,7 @@ export const UNIT11: WordProps[] = [
 
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
+  "Unit #4": UNIT4,
   "Unit #5": UNIT5,
   "Unit #6": UNIT6,
   "Unit #7": UNIT7,

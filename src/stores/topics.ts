@@ -4,6 +4,7 @@ import { nanoid } from "nanoid";
 import type { TopicsStoreProps } from "@/types/types";
 import {
   DATES,
+  UNIT4,
   UNIT5,
   UNIT6,
   UNIT7,
@@ -16,6 +17,7 @@ import {
 export const useTopicsStore = defineStore("topics", () => {
   const topics = ref<TopicsStoreProps[]>([
     { id: nanoid(), name: "Date numbers", value: DATES },
+    { id: nanoid(), name: "Unit #4", value: UNIT4 },
     { id: nanoid(), name: "Unit #5", value: UNIT5 },
     { id: nanoid(), name: "Unit #6", value: UNIT6 },
     { id: nanoid(), name: "Unit #7", value: UNIT7 },
