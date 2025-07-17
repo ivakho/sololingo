@@ -94,6 +94,146 @@ export const DATES: WordProps[] = [
   },
 ];
 
+export const UNIT2: WordProps[] = [
+  {
+    jap: "これ",
+    eng: "this (thing here)",
+    rus: "это (о предмете, ближе к говорящему)",
+  },
+  {
+    jap: "それ",
+    eng: "that (thing near you)",
+    rus: "это, то (о предмете, ближе к собеседнику)",
+  },
+  {
+    jap: "あれ",
+    eng: "that (thing over there)",
+    rus: "то (одинаково удалённое от говорящего и собеседника)",
+  },
+  { jap: "この～", eng: "this ~", rus: "этот" },
+  { jap: "その～", eng: "that ~ (near you)", rus: "этот, тот" },
+  { jap: "あの～", eng: "that ~ (over there)", rus: "тот" },
+  { jap: "ほん", eng: "book", rus: "книга" },
+  { jap: "じしょ", eng: "dictionary", rus: "словарь" },
+  { jap: "ざっし", eng: "magazine", rus: "журнал" },
+  { jap: "しんぶん", eng: "newspaper", rus: "газета" },
+  { jap: "ノート", eng: "notebook", rus: "тетрадь" },
+  { jap: "てちょう", eng: "pocket notebook", rus: "записная книжка, блокнот" },
+  { jap: "めいし", eng: "business card", rus: "визитная карточка" },
+  { jap: "カード", eng: "card", rus: "(кредитная) карта, карточка, открытка" },
+
+  { jap: "えんぴつ", eng: "pencil", rus: "карандаш" },
+  { jap: "ボールペン", eng: "ballpoint pen", rus: "шариковая ручка" },
+  {
+    jap: "シャープペンシル",
+    eng: "mechanical pencil",
+    rus: "автоматический карандаш",
+  },
+  { jap: "かぎ", eng: "key", rus: "ключ" },
+  { jap: "とけい", eng: "watch / clock", rus: "часы" },
+  { jap: "かさ", eng: "umbrella", rus: "зонт" },
+  { jap: "かばん", eng: "bag", rus: "портфель, кейс" },
+  { jap: "CD", eng: "CD", rus: "CD (компакт-диск)" },
+  { jap: "テレビ", eng: "television", rus: "телевизор" },
+  { jap: "ラジオ", eng: "radio", rus: "радио" },
+  { jap: "カメラ", eng: "camera", rus: "фотоаппарат" },
+  { jap: "コンピューター", eng: "computer", rus: "компьютер" },
+  { jap: "くるま", eng: "car", rus: "автомобиль" },
+  { jap: "つくえ", eng: "desk", rus: "стол, письменный стол" },
+  { jap: "いす", eng: "chair", rus: "стул" },
+  { jap: "チョコレート", eng: "chocolate", rus: "шоколад" },
+  { jap: "コーヒー", eng: "coffee", rus: "кофе" },
+];
+
+export const UNIT3: WordProps[] = [
+  { jap: "ここ", eng: "here", rus: "здесь (о месте, ближе к говорящему)" },
+  {
+    jap: "そこ",
+    eng: "there",
+    rus: "здесь, там (о месте, ближе к собеседнику)",
+  },
+  {
+    jap: "あそこ",
+    eng: "over there",
+    rus: "там (одинаково удалённо от говорящего и собеседника)",
+  },
+  { jap: "どこ", eng: "where", rus: "где" },
+  {
+    jap: "こちら",
+    eng: "this way / here (polite)",
+    rus: "здесь; сюда (вежливая форма ここ)",
+  },
+  {
+    jap: "そちら",
+    eng: "that way / there (polite)",
+    rus: "там; туда (вежливая форма そこ)",
+  },
+  {
+    jap: "あちら",
+    eng: "that way over there (polite)",
+    rus: "там; туда (вежливая форма あそこ)",
+  },
+  {
+    jap: "どちら",
+    eng: "which way / where (polite)",
+    rus: "где; куда (вежливая форма どこ)",
+  },
+  { jap: "きょうしつ", eng: "classroom", rus: "аудитория, класс" },
+  { jap: "しょくどう", eng: "cafeteria", rus: "столовая" },
+  { jap: "じむしょ", eng: "office", rus: "контора, офис" },
+  { jap: "かいぎしつ", eng: "conference room", rus: "зал заседаний" },
+  { jap: "うけつけ", eng: "reception", rus: "приёмная, стойка администратора" },
+  { jap: "ロビー", eng: "lobby", rus: "вестибюль, холл" },
+  { jap: "へや", eng: "room", rus: "комната" },
+  { jap: "トイレ（おてあらい）", eng: "toilet", rus: "туалет" },
+
+  { jap: "かいだん", eng: "stairs", rus: "лестница" },
+  { jap: "エレベーター", eng: "elevator", rus: "лифт" },
+  { jap: "エスカレーター", eng: "escalator", rus: "эскалатор" },
+  {
+    jap: "じどうはんばいき",
+    eng: "vending machine",
+    rus: "автомат по продаже",
+  },
+  { jap: "でんわ", eng: "telephone", rus: "телефон, телефонный разговор" },
+  { jap: "[お]くに", eng: "country", rus: "страна (вежл.)" },
+  { jap: "かいしゃ", eng: "company", rus: "компания, фирма" },
+  { jap: "うち", eng: "home", rus: "дом" },
+
+  { jap: "くつ", eng: "shoes", rus: "обувь, туфли" },
+  { jap: "ネクタイ", eng: "tie", rus: "галстук" },
+  { jap: "ワイン", eng: "wine", rus: "вино" },
+  {
+    jap: "うりば",
+    eng: "sales floor / counter",
+    rus: "прилавок, отдел (в магазине)",
+  },
+  { jap: "ちか", eng: "basement", rus: "подвал, подвальный этаж" },
+  { jap: "－かい（－がい）", eng: "-th floor", rus: "－й этаж" },
+  { jap: "なんがい", eng: "which floor", rus: "какой этаж?" },
+
+  { jap: "－えん", eng: "yen", rus: "－ иен" },
+  { jap: "いくら", eng: "how much", rus: "сколько стоит" },
+
+  { jap: "ひゃく", eng: "hundred", rus: "сто" },
+  { jap: "せん", eng: "thousand", rus: "тысяча" },
+  { jap: "まん", eng: "ten thousand", rus: "десять тысяч" },
+  { jap: "すみません。", eng: "Excuse me.", rus: "Извините." },
+  { jap: "どうも。", eng: "Thanks.", rus: "Спасибо." },
+  { jap: "いらっしゃいませ。", eng: "Welcome!", rus: "Добро пожаловать!" },
+  {
+    jap: "[～を]みせてください。",
+    eng: "Please show me [~].",
+    rus: "Пожалуйста, покажите [~].",
+  },
+  { jap: "じゃ", eng: "Well then...", rus: "Что ж..." },
+  {
+    jap: "[～を]ください。",
+    eng: "Please give me [~].",
+    rus: "Пожалуйста, дайте [~].",
+  },
+];
+
 export const UNIT4: WordProps[] = [
   { jap: "おきます", eng: "get up, wake up", rus: "вставать, просыпаться" },
   {
@@ -881,6 +1021,7 @@ export const UNIT11: WordProps[] = [
 
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
+  "Unit #3": UNIT3,
   "Unit #4": UNIT4,
   "Unit #5": UNIT5,
   "Unit #6": UNIT6,
