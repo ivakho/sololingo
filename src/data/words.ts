@@ -145,18 +145,18 @@ export const UNIT1: WordProps[] = [
     eng: "Nice to meet you (first time)",
     rus: "Рад встрече (впервые встречаемся)",
   },
-  { jap: "〜から 来ました。", eng: "I came from ~", rus: "Я приехал из ~" },
+  { jap: "〜から きました。", eng: "I came from ~", rus: "Я приехал из ~" },
   {
     jap: "[どうぞ] よろしく [お願いします]。",
     eng: "Nice to meet you / Please treat me well",
     rus: "Прошу вашего расположения / Очень приятно",
   },
   {
-    jap: "失礼ですが、〜",
+    jap: "しつれいですが、〜",
     eng: "Excuse me, but…",
     rus: "Извините, но... (перед личным вопросом)",
   },
-  { jap: "お名前は？", eng: "What’s your name?", rus: "Как вас зовут?" },
+  { jap: "おなまえは？", eng: "What’s your name?", rus: "Как вас зовут?" },
   {
     jap: "こちらは〜さんです。",
     eng: "This is Mr./Ms. ~",
@@ -244,7 +244,7 @@ export const UNIT2: WordProps[] = [
     rus: "Вот оно что. / Понятно.",
   },
   {
-    jap: "違います。",
+    jap: "ちがいます。",
     eng: "That’s not correct.",
     rus: "Нет, это не так / это неправильно.",
   },
@@ -254,12 +254,12 @@ export const UNIT2: WordProps[] = [
     rus: "Ах! (удивление по поводу забывчивости и т.п.)",
   },
   {
-    jap: "これから お世話に なります。",
+    jap: "これから おせわに なります。",
     eng: "I’m in your care from now on.",
     rus: "С надеждой на вашу поддержку. (при знакомстве, прибытии и т.п.)",
   },
   {
-    jap: "こちらこそ [どうぞ] よろしく [お願いします]。",
+    jap: "こちらこそ [どうぞ] よろしく [おねがいします]。",
     eng: "Pleased to meet you too.",
     rus: "Мне тоже очень приятно. (ответ на よろしく)",
   },
