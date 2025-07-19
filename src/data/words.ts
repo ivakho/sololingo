@@ -94,6 +94,76 @@ export const DATES: WordProps[] = [
   },
 ];
 
+export const UNIT1: WordProps[] = [
+  { jap: "わたし", eng: "I", rus: "я" },
+  { jap: "あなた", eng: "you", rus: "вы (ты)" },
+  { jap: "あの ひと", eng: "that person (he, she)", rus: "он, она" },
+  { jap: "あの かた", eng: "that person (polite)", rus: "он, она (вежливо)" },
+
+  { jap: "〜さん", eng: "Mr./Ms.", rus: "г-н / г-жа (вежливый суффикс)" },
+  {
+    jap: "〜ちゃん",
+    eng: "suffix for children",
+    rus: "уменьшительно-ласкательный суффикс (для детей)",
+  },
+  {
+    jap: "〜じん",
+    eng: "person (nationality)",
+    rus: "человек (по национальности), напр. アメリカじん — американец",
+  },
+  {
+    jap: "せんせい",
+    eng: "teacher (not used for oneself)",
+    rus: "учитель, преподаватель (не о себе)",
+  },
+  {
+    jap: "きょうし",
+    eng: "teacher (used for oneself)",
+    rus: "учитель, преподаватель (о себе)",
+  },
+  { jap: "がくせい", eng: "student", rus: "студент" },
+  { jap: "かいしゃいん", eng: "company employee", rus: "служащий фирмы" },
+  {
+    jap: "しゃいん",
+    eng: "employee of ~ company",
+    rus: "служащий фирмы ~ (IMC の しゃいん)",
+  },
+  { jap: "ぎんこういん", eng: "bank employee", rus: "служащий банка" },
+  { jap: "いしゃ", eng: "doctor", rus: "врач" },
+  { jap: "けんきゅうしゃ", eng: "researcher", rus: "исследователь, учёный" },
+  { jap: "だいがく", eng: "university", rus: "университет" },
+  { jap: "びょういん", eng: "hospital", rus: "больница" },
+  { jap: "だれ", eng: "who", rus: "кто" },
+  { jap: "どなた", eng: "who (polite)", rus: "кто (вежливо)" },
+  { jap: "〜さい", eng: "~ years old", rus: "~ лет (о возрасте)" },
+  { jap: "なんさい", eng: "how old", rus: "Сколько лет?" },
+  { jap: "おいくつ", eng: "how old (polite)", rus: "Сколько лет? (вежливо)" },
+  { jap: "はい", eng: "yes", rus: "да" },
+  { jap: "いいえ", eng: "no", rus: "нет" },
+  {
+    jap: "はじめまして。",
+    eng: "Nice to meet you (first time)",
+    rus: "Рад встрече (впервые встречаемся)",
+  },
+  { jap: "〜から 来ました。", eng: "I came from ~", rus: "Я приехал из ~" },
+  {
+    jap: "[どうぞ] よろしく [お願いします]。",
+    eng: "Nice to meet you / Please treat me well",
+    rus: "Прошу вашего расположения / Очень приятно",
+  },
+  {
+    jap: "失礼ですが、〜",
+    eng: "Excuse me, but…",
+    rus: "Извините, но... (перед личным вопросом)",
+  },
+  { jap: "お名前は？", eng: "What’s your name?", rus: "Как вас зовут?" },
+  {
+    jap: "こちらは〜さんです。",
+    eng: "This is Mr./Ms. ~",
+    rus: "Это г-н / г-жа ~",
+  },
+];
+
 export const UNIT2: WordProps[] = [
   {
     jap: "これ",
@@ -121,7 +191,6 @@ export const UNIT2: WordProps[] = [
   { jap: "てちょう", eng: "pocket notebook", rus: "записная книжка, блокнот" },
   { jap: "めいし", eng: "business card", rus: "визитная карточка" },
   { jap: "カード", eng: "card", rus: "(кредитная) карта, карточка, открытка" },
-
   { jap: "えんぴつ", eng: "pencil", rus: "карандаш" },
   { jap: "ボールペン", eng: "ballpoint pen", rus: "шариковая ручка" },
   {
@@ -143,6 +212,57 @@ export const UNIT2: WordProps[] = [
   { jap: "いす", eng: "chair", rus: "стул" },
   { jap: "チョコレート", eng: "chocolate", rus: "шоколад" },
   { jap: "コーヒー", eng: "coffee", rus: "кофе" },
+  { jap: "[お]みやげ", eng: "souvenir", rus: "сувенир, подарок" },
+  { jap: "えいご", eng: "English (language)", rus: "английский язык" },
+  { jap: "にほんご", eng: "Japanese (language)", rus: "японский язык" },
+  { jap: "〜ご", eng: "~ language", rus: "~ язык" },
+  { jap: "なん", eng: "what", rus: "что? (вопросительное местоимение)" },
+  { jap: "そう", eng: "so / that way", rus: "так" },
+  {
+    jap: "あのう",
+    eng: "um... / well...",
+    rus: "М-м... / ну / как вам сказать... (выражает замешательство, напр., в начале разговора)",
+  },
+  {
+    jap: "えっ",
+    eng: "eh? / what?",
+    rus: "Что? / Вот как? / Правда? / Неужели? (удивление по поводу услышанного)",
+  },
+  {
+    jap: "どうぞ",
+    eng: "please (offering something)",
+    rus: "Пожалуйста (при предложении чего-либо)",
+  },
+  {
+    jap: "[どうも] ありがとう [ございます]",
+    eng: "Thank you very much",
+    rus: "Большое спасибо!",
+  },
+  {
+    jap: "そうですか。",
+    eng: "Is that so? / I see",
+    rus: "Вот оно что. / Понятно.",
+  },
+  {
+    jap: "違います。",
+    eng: "That’s not correct.",
+    rus: "Нет, это не так / это неправильно.",
+  },
+  {
+    jap: "あ",
+    eng: "Ah!",
+    rus: "Ах! (удивление по поводу забывчивости и т.п.)",
+  },
+  {
+    jap: "これから お世話に なります。",
+    eng: "I’m in your care from now on.",
+    rus: "С надеждой на вашу поддержку. (при знакомстве, прибытии и т.п.)",
+  },
+  {
+    jap: "こちらこそ [どうぞ] よろしく [お願いします]。",
+    eng: "Pleased to meet you too.",
+    rus: "Мне тоже очень приятно. (ответ на よろしく)",
+  },
 ];
 
 export const UNIT3: WordProps[] = [
@@ -1021,6 +1141,8 @@ export const UNIT11: WordProps[] = [
 
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
+  "Unit #1": UNIT1,
+  "Unit #2": UNIT2,
   "Unit #3": UNIT3,
   "Unit #4": UNIT4,
   "Unit #5": UNIT5,
