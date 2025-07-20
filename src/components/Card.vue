@@ -12,16 +12,16 @@ const topicsStore = useTopicsStore()
 
 const randomCards = computed(() => cardsStore.cards)
 
+let isCorrect;
+
 const hanleCardClick = (word: string) => {
   if (resultStore.popUp) return;
 
   const topic = topicsStore.topicName;
   const targetWord = wordsStore.computedRandomWord;
-  let isCorrect = false;
+  isCorrect = false;
 
-  if (topic === "Date numbers") {
-    isCorrect = word === targetWord.jap;
-  } else if (topic.startsWith("Unit")) {
+  if (topic === "Date numbers" || topic.startsWith("Unit")) {
     isCorrect = word === targetWord.jap;
   } else {
     isCorrect = false;

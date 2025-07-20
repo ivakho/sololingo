@@ -1,11 +1,16 @@
 <script setup lang="ts">
+import { useRouter } from 'vue-router';
 import { useCardsStore } from '@/stores/cards';
 import { useResultStore } from '@/stores/result';
 import { useWordsStore } from '@/stores/words';
+import { computed } from 'vue';
 
+const router = useRouter();
 const resultStore = useResultStore()
 const cardsStore = useCardsStore()
 const wordsStore = useWordsStore()
+
+const isLevelCompleted = computed(() => wordsStore.remainingWords.length === 0);
 
 const getPopUpClass = () => {
   if (resultStore.isHidden) {
@@ -14,16 +19,37 @@ const getPopUpClass = () => {
   return resultStore.computedResult.status ? 'popUp correct' : 'popUp wrong'
 }
 
-const onContinueClick = () => {
+// const onContinueClick = () => {
 
-  wordsStore.setRandomNumber()
-  cardsStore.setRandomCards()
-  resultStore.setIsHidden(true)
-  resultStore.hidePopUp()
-}
+//   wordsStore.setRandomNumber()
+//   cardsStore.setRandomCards()
+//   resultStore.setIsHidden(true)
+//   resultStore.hidePopUp()
+// }
+
+const onContinueClick = () => {
+  // if (wordsStore.remainingWords.length === 0) {
+  //   resultStore.setIsHidden(true);
+  //   resultStore.hidePopUp();
+  //   router.push({ name: 'home' });
+
+  //   return;
+  // }
+
+  wordsStore.setNextRandomWord();
+  cardsStore.setRandomCards();
+  resultStore.setIsHidden(true);
+  resultStore.hidePopUp();
+};
+
 </script>
 
 <template>
+
+  <!-- <div class="popUp correct" v-if="isLevelCompleted">
+    <div class="popUp__text">Congratulations, the topic is completed</div>
+    <button class="popUp__button" @click="onContinueClick">Go back</button>
+  </div> -->
   <div :class=getPopUpClass()>
     <div class="popUp__text">{{ resultStore.result.text }}</div>
     <button class="popUp__button" @click="onContinueClick">Continue</button>
