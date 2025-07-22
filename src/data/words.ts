@@ -1314,7 +1314,233 @@ export const UNIT13: WordProps[] = [
   },
 ];
 
-
+export const UNIT14: WordProps[] = [
+  {
+    jap: "つけます",
+    eng: "to turn on",
+    rus: "включать, зажигать",
+  },
+  {
+    jap: "けします",
+    eng: "to turn off",
+    rus: "выключать, гасить",
+  },
+  {
+    jap: "あけます",
+    eng: "to open",
+    rus: "открывать (дверь, окно и т.п.)",
+  },
+  {
+    jap: "しめます",
+    eng: "to close",
+    rus: "закрывать (дверь, окно и т.п.)",
+  },
+  {
+    jap: "いそぎます",
+    eng: "to hurry",
+    rus: "спешить, торопиться",
+  },
+  {
+    jap: "まちます",
+    eng: "to wait",
+    rus: "ждать",
+  },
+  {
+    jap: "もちます",
+    eng: "to hold",
+    rus: "держать",
+  },
+  {
+    jap: "とります",
+    eng: "to take, to pass",
+    rus: "брать, взять, получать, передавать (соль и т.п.)",
+  },
+  {
+    jap: "てつだいます",
+    eng: "to help",
+    rus: "помогать (в работе и пр.)",
+  },
+  {
+    jap: "よびます",
+    eng: "to call, to invite",
+    rus: "звать, называть (имя), вызывать (такси)",
+  },
+  {
+    jap: "はなします",
+    eng: "to talk",
+    rus: "говорить, разговаривать",
+  },
+  {
+    jap: "つかいます",
+    eng: "to use",
+    rus: "использовать",
+  },
+  {
+    jap: "とめます",
+    eng: "to stop",
+    rus: "останавливать, остановить (машину)",
+  },
+  {
+    jap: "みせます",
+    eng: "to show",
+    rus: "показывать (паспорт, фотографии)",
+  },
+  {
+    jap: "おしえます（じゅうしょを〜）",
+    eng: "to tell (an address), to teach",
+    rus: "объяснять, объяснить (дорогу), сказать (№ тел.), сообщить [адрес]",
+  },
+  {
+    jap: "すわります",
+    eng: "to sit down",
+    rus: "садиться",
+  },
+  {
+    jap: "たちます",
+    eng: "to stand up",
+    rus: "вставать",
+  },
+  {
+    jap: "はいります（きっさてんに〜）",
+    eng: "to enter [a cafe]",
+    rus: "входить [в кафе]",
+  },
+  {
+    jap: "でます（きっさてんを〜）",
+    eng: "to leave [a cafe]",
+    rus: "выходить [из кафе]",
+  },
+  {
+    jap: "ふります（あめが〜）",
+    eng: "to fall (rain, snow)",
+    rus: "выпадать, идти (об осадках: идёт [дождь])",
+  },
+  {
+    jap: "コピーします",
+    eng: "to copy",
+    rus: "копировать (на копировальной машине)",
+  },
+  {
+    jap: "でんき",
+    eng: "electricity",
+    rus: "электричество, электрический свет",
+  },
+  {
+    jap: "エアコン",
+    eng: "air conditioner",
+    rus: "кондиционер",
+  },
+  {
+    jap: "パスポート",
+    eng: "passport",
+    rus: "паспорт",
+  },
+  {
+    jap: "なまえ",
+    eng: "name",
+    rus: "имя",
+  },
+  {
+    jap: "じゅうしょ",
+    eng: "address",
+    rus: "адрес",
+  },
+  {
+    jap: "ちず",
+    eng: "map",
+    rus: "карта",
+  },
+  {
+    jap: "しお",
+    eng: "salt",
+    rus: "соль",
+  },
+  {
+    jap: "さとう",
+    eng: "sugar",
+    rus: "сахар",
+  },
+  {
+    jap: "もんだい",
+    eng: "question, problem",
+    rus: "вопрос",
+  },
+  {
+    jap: "こたえ",
+    eng: "answer",
+    rus: "ответ",
+  },
+  {
+    jap: "よみかた",
+    eng: "way of reading",
+    rus: "чтение (как читается, произносится)",
+  },
+  {
+    jap: "〜かた",
+    eng: "way of doing ~",
+    rus: "способ, образ (характер) действий",
+  },
+  {
+    jap: "まっすぐ",
+    eng: "straight",
+    rus: "прямо, не сворачивая",
+  },
+  {
+    jap: "ゆっくり",
+    eng: "slowly",
+    rus: "медленно, не спеша",
+  },
+  {
+    jap: "すぐ",
+    eng: "immediately",
+    rus: "сразу",
+  },
+  {
+    jap: "また",
+    eng: "again",
+    rus: "снова, опять",
+  },
+  {
+    jap: "あとで",
+    eng: "later",
+    rus: "потом, позднее",
+  },
+  {
+    jap: "もうすこし",
+    eng: "a little more",
+    rus: "ещё немного",
+  },
+  {
+    jap: "もう〜",
+    eng: "another ~",
+    rus: "ещё ~ (ещё раз, ещё один день, ещё один человек)",
+  },
+  {
+    jap: "さあ",
+    eng: "Well...",
+    rus: "Ну, что ж. (междометие, выражающее согласие с предложением собеседника)",
+  },
+  {
+    jap: "あれ？",
+    eng: "Huh?",
+    rus: "Да ну? Вот это да! Ого! (междометие, выражающее удивление)",
+  },
+  {
+    jap: "しんごうを みぎへ まがって ください。",
+    eng: "Turn right at the traffic light.",
+    rus: "На светофоре поверните направо.",
+  },
+  {
+    jap: "これで おねがいします。",
+    eng: "I'd like to pay with this.",
+    rus: "Вот, прошу вас. (при оплате в такси, киоске и т.п.)",
+  },
+  {
+    jap: "おつり",
+    eng: "change (money)",
+    rus: "сдача",
+  },
+];
 
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
@@ -1331,4 +1557,5 @@ export const topicWordsMap: Record<string, WordProps[]> = {
   "Unit #11": UNIT11,
   "Unit #12": UNIT12,
   "Unit #13": UNIT13,
+  "Unit #14": UNIT14,
 };
