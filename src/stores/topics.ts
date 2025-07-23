@@ -18,6 +18,8 @@ import {
   UNIT12,
   UNIT13,
   UNIT14,
+  UNIT15,
+  UNIT16,
 } from "@/data/words";
 
 export const useTopicsStore = defineStore("topics", () => {
@@ -37,6 +39,8 @@ export const useTopicsStore = defineStore("topics", () => {
     { id: nanoid(), name: "Unit #12", value: UNIT12 },
     { id: nanoid(), name: "Unit #13", value: UNIT13 },
     { id: nanoid(), name: "Unit #14", value: UNIT14 },
+    { id: nanoid(), name: "Unit #15", value: UNIT15 },
+    { id: nanoid(), name: "Unit #16", value: UNIT16 },
   ]);
 
   const topicName = ref<string>("");

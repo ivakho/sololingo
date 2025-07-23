@@ -1542,6 +1542,362 @@ export const UNIT14: WordProps[] = [
   },
 ];
 
+export const UNIT15: WordProps[] = [
+  {
+    jap: "おきます",
+    eng: "to put, place",
+    rus: "класть, ставить",
+  },
+  {
+    jap: "つくります",
+    eng: "to make, to produce",
+    rus: "делать, производить, создавать, готовить, строить (вещи, товары, блюда, здания)",
+  },
+  {
+    jap: "うります",
+    eng: "to sell",
+    rus: "продавать",
+  },
+  {
+    jap: "しります",
+    eng: "to know, to find out",
+    rus: "узнать (действие в момент получения информации)",
+  },
+  {
+    jap: "すみます",
+    eng: "to live, to reside",
+    rus: "селиться, жить",
+  },
+  {
+    jap: "けんきゅうします",
+    eng: "to do research",
+    rus: "изучать, исследовать",
+  },
+  {
+    jap: "しりょう",
+    eng: "materials, data",
+    rus: "материалы, данные",
+  },
+  {
+    jap: "カタログ",
+    eng: "catalogue",
+    rus: "каталог",
+  },
+  {
+    jap: "じこくひょう",
+    eng: "timetable (train etc.)",
+    rus: "расписание (поездов)",
+  },
+  {
+    jap: "ふく",
+    eng: "clothes",
+    rus: "одежда",
+  },
+  {
+    jap: "せいひん",
+    eng: "product",
+    rus: "изделие, продукт, товар",
+  },
+  {
+    jap: "ソフト",
+    eng: "software",
+    rus: "программное обеспечение, компьютерная программа",
+  },
+  {
+    jap: "でんしじしょ",
+    eng: "electronic dictionary",
+    rus: "электронный словарь",
+  },
+  {
+    jap: "けいざい",
+    eng: "economy",
+    rus: "экономика",
+  },
+  {
+    jap: "しやくしょ",
+    eng: "city hall, municipal office",
+    rus: "мэрия",
+  },
+  {
+    jap: "こうこう",
+    eng: "high school",
+    rus: "старшая школа",
+  },
+  {
+    jap: "はいしゃ",
+    eng: "dentist",
+    rus: "зубной врач, стоматолог; стоматологическая клиника",
+  },
+  {
+    jap: "どくしん",
+    eng: "single, unmarried",
+    rus: "холостой, одинокий",
+  },
+  {
+    jap: "すみません",
+    eng: "excuse me, I'm sorry",
+    rus: "Извините.",
+  },
+];
+
+export const UNIT16: WordProps[] = [
+  {
+    jap: "のります【でんしゃに～】",
+    eng: "to ride, get on [a train]",
+    rus: "ехать, садиться (в транспорт) [на поезд]",
+  },
+  {
+    jap: "おります【でんしゃを～】",
+    eng: "to get off [a train]",
+    rus: "выходить, сходить (с транспорта) [из поезда]",
+  },
+  {
+    jap: "のりかえます",
+    eng: "to change (trains, etc.)",
+    rus: "делать пересадку (на транспорте)",
+  },
+  {
+    jap: "あびます【シャワーを～】",
+    eng: "to take [a shower]",
+    rus: "обливаться, быть облитым, принимать [душ]",
+  },
+  {
+    jap: "いれます",
+    eng: "to put in, insert",
+    rus: "вкладывать, вставлять, опускать",
+  },
+  {
+    jap: "だします",
+    eng: "to take out, hand in, send",
+    rus: "представлять, подавать (доклад), отправлять (письмо); доставать (из портфеля)",
+  },
+  {
+    jap: "おろします【おかねを～】",
+    eng: "to withdraw [money]",
+    rus: "снимать, опускать [деньги с банковского счёта]",
+  },
+  {
+    jap: "はいります【だいがくに～】",
+    eng: "to enter [university]",
+    rus: "входить, поступать [в университет]",
+  },
+  {
+    jap: "でます【だいがくを～】",
+    eng: "to graduate from [university]",
+    rus: "выходить, появляться, окончить [университет]",
+  },
+  {
+    jap: "おします",
+    eng: "to push, press",
+    rus: "толкать, жать, теснить",
+  },
+  {
+    jap: "のみます【おさけを～】",
+    eng: "to drink [alcohol]",
+    rus: "пить алкогольные напитки",
+  },
+  {
+    jap: "はじめます",
+    eng: "to begin, start",
+    rus: "начинать",
+  },
+  {
+    jap: "けんがくします",
+    eng: "to tour, visit a place for study",
+    rus: "посещать, осматривать",
+  },
+  {
+    jap: "でんわします",
+    eng: "to make a phone call",
+    rus: "звонить по телефону",
+  },
+  {
+    jap: "わかい",
+    eng: "young",
+    rus: "молодой",
+  },
+  {
+    jap: "ながい",
+    eng: "long",
+    rus: "длинный",
+  },
+  {
+    jap: "みじかい",
+    eng: "short",
+    rus: "короткий",
+  },
+  {
+    jap: "あかるい",
+    eng: "bright",
+    rus: "светлый (есть свет)",
+  },
+  {
+    jap: "くらい",
+    eng: "dark",
+    rus: "тёмный (нет света)",
+  },
+  {
+    jap: "からだ",
+    eng: "body",
+    rus: "тело",
+  },
+  {
+    jap: "あたま",
+    eng: "head",
+    rus: "голова",
+  },
+  {
+    jap: "かみ",
+    eng: "hair",
+    rus: "волосы",
+  },
+  {
+    jap: "かお",
+    eng: "face",
+    rus: "лицо",
+  },
+  {
+    jap: "め",
+    eng: "eye, eyes",
+    rus: "глаз, глаза",
+  },
+  {
+    jap: "みみ",
+    eng: "ear, ears",
+    rus: "ухо, уши",
+  },
+  {
+    jap: "はな",
+    eng: "nose",
+    rus: "нос",
+  },
+  {
+    jap: "くち",
+    eng: "mouth",
+    rus: "рот",
+  },
+  {
+    jap: "は",
+    eng: "tooth, teeth",
+    rus: "зуб, зубы",
+  },
+  {
+    jap: "おなか",
+    eng: "stomach",
+    rus: "живот",
+  },
+  {
+    jap: "あし",
+    eng: "leg, foot",
+    rus: "нога, ноги (от ступни до паха)",
+  },
+  {
+    jap: "せ",
+    eng: "height, back",
+    rus: "спина",
+  },
+  {
+    jap: "サービス",
+    eng: "service",
+    rus: "обслуживание, сервис",
+  },
+  {
+    jap: "ジョギング",
+    eng: "jogging",
+    rus: "спортивный бег (～を します бегать, заниматься бегом)",
+  },
+  {
+    jap: "シャワー",
+    eng: "shower",
+    rus: "душ",
+  },
+  {
+    jap: "みどり",
+    eng: "greenery",
+    rus: "зелёный, зелень (зелёный город и т.п.)",
+  },
+  {
+    jap: "[お]てら",
+    eng: "Buddhist temple",
+    rus: "буддистский храм",
+  },
+  {
+    jap: "じんじゃ",
+    eng: "Shinto shrine",
+    rus: "синтоистский храм",
+  },
+  {
+    jap: "－ばん",
+    eng: "number",
+    rus: "номер – (№ 3, № 4 и т.д.)",
+  },
+  {
+    jap: "どうやって",
+    eng: "how, by what means",
+    rus: "как, каким образом",
+  },
+  {
+    jap: "どの～",
+    eng: "which ～ (three or more)",
+    rus: "который, какой из ～ (при выборе из трёх и более)",
+  },
+  {
+    jap: "どれ",
+    eng: "which (three or more)",
+    rus: "который? какой? (из трёх и более предметов)",
+  },
+  {
+    jap: "すごいですね。",
+    eng: "That's great!",
+    rus: "Вот это да!",
+  },
+  {
+    jap: "まだまだです。",
+    eng: "Not yet.",
+    rus: "[Нет,] пока нет.",
+  },
+  {
+    jap: "おひきだしですか。",
+    eng: "Do you want to withdraw money?",
+    rus: "Вы хотите снять деньги со счёта?",
+  },
+  {
+    jap: "まず",
+    eng: "first of all",
+    rus: "сначала, в первую очередь",
+  },
+  {
+    jap: "つぎに",
+    eng: "next",
+    rus: "затем, далее",
+  },
+  {
+    jap: "キャッシュカード",
+    eng: "cash card",
+    rus: "банковская карта",
+  },
+  {
+    jap: "あんしょうばんごう",
+    eng: "PIN",
+    rus: "код, секретный номер, PIN-код",
+  },
+  {
+    jap: "きんがく",
+    eng: "amount of money",
+    rus: "денежная сумма",
+  },
+  {
+    jap: "かくにん",
+    eng: "confirmation",
+    rus: "подтверждение (～します подтверждать)",
+  },
+  {
+    jap: "ボタン",
+    eng: "button",
+    rus: "кнопка, клавиша",
+  },
+];
+
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
   "Unit #1": UNIT1,
@@ -1558,4 +1914,6 @@ export const topicWordsMap: Record<string, WordProps[]> = {
   "Unit #12": UNIT12,
   "Unit #13": UNIT13,
   "Unit #14": UNIT14,
+  "Unit #15": UNIT15,
+  "Unit #16": UNIT16,
 };
