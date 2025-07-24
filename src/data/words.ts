@@ -1898,6 +1898,297 @@ export const UNIT16: WordProps[] = [
   },
 ];
 
+export const UNIT17: WordProps[] = [
+  {
+    jap: "おぼえます",
+    eng: "to memorize",
+    rus: "помнить, запоминать",
+  },
+  {
+    jap: "わすれます",
+    eng: "to forget",
+    rus: "забывать (имя, зонт в поезде и т.д.)",
+  },
+  {
+    jap: "なくします",
+    eng: "to lose",
+    rus: "терять",
+  },
+  {
+    jap: "はらいます",
+    eng: "to pay",
+    rus: "платить (деньги)",
+  },
+  {
+    jap: "かえします",
+    eng: "to return, give back",
+    rus: "возвращать",
+  },
+  {
+    jap: "でかけます",
+    eng: "to go out",
+    rus: "выходить, отправляться (из дома куда-либо)",
+  },
+  {
+    jap: "ぬぎます",
+    eng: "to take off (clothes/shoes)",
+    rus: "снимать (одежду, обувь)",
+  },
+  {
+    jap: "もっていきます",
+    eng: "to take (something)",
+    rus: "уносить",
+  },
+  {
+    jap: "もってきます",
+    eng: "to bring",
+    rus: "приносить",
+  },
+  {
+    jap: "しんぱいします",
+    eng: "to worry",
+    rus: "волноваться, беспокоиться",
+  },
+  {
+    jap: "ざんぎょうします",
+    eng: "to work overtime",
+    rus: "работать сверхурочно",
+  },
+  {
+    jap: "しゅっちょうします",
+    eng: "to go on a business trip",
+    rus: "уезжать в командировку, быть в командировке",
+  },
+  {
+    jap: "のみます",
+    eng: "to drink",
+    rus: "пить",
+  },
+  {
+    jap: "くすりを のみます",
+    eng: "to take medicine",
+    rus: "принимать [лекарство]",
+  },
+  {
+    jap: "はいります",
+    eng: "to enter",
+    rus: "принимать [ванну]",
+  },
+  {
+    jap: "たいせつ[な]",
+    eng: "important, precious",
+    rus: "важный, серьёзный, ценный, требующий бережного отношения",
+  },
+  {
+    jap: "だいじょうぶ[な]",
+    eng: "okay, all right",
+    rus: "всё в порядке, ничего",
+  },
+  {
+    jap: "あぶない",
+    eng: "dangerous",
+    rus: "опасный",
+  },
+  {
+    jap: "きんえん",
+    eng: "No smoking",
+    rus: "Не курить!",
+  },
+  {
+    jap: "けんこうほけんしょう",
+    eng: "health insurance card",
+    rus: "свидетельство о медицинском страховании",
+  },
+  {
+    jap: "ねつ",
+    eng: "fever",
+    rus: "жар, повышенная температура",
+  },
+  {
+    jap: "びょうき",
+    eng: "illness",
+    rus: "болезнь",
+  },
+  {
+    jap: "くすり",
+    eng: "medicine",
+    rus: "лекарство",
+  },
+  {
+    jap: "おふろ",
+    eng: "bath",
+    rus: "ванна",
+  },
+  {
+    jap: "うわぎ",
+    eng: "jacket, coat",
+    rus: "пиджак, жакет",
+  },
+  {
+    jap: "したぎ",
+    eng: "underwear",
+    rus: "нижнее бельё",
+  },
+  {
+    jap: "2、3にち",
+    eng: "2-3 days",
+    rus: "2-3 дня (иногда переводится «несколько дней»)",
+  },
+  {
+    jap: "2、3〜",
+    eng: "a few ~",
+    rus: "немного ~ (〜 — счётный суффикс)",
+  },
+  {
+    jap: "〜までに",
+    eng: "by (a time limit)",
+    rus: "до (при обозначении крайнего срока, предела по времени)",
+  },
+  {
+    jap: "ですから",
+    eng: "so, therefore",
+    rus: "поэтому",
+  },
+  {
+    jap: "どうしましたか。",
+    eng: "What happened?",
+    rus: "Что (с вами) случилось?",
+  },
+  {
+    jap: "のど",
+    eng: "throat",
+    rus: "горло",
+  },
+  {
+    jap: "〜が いたいです。",
+    eng: "~ hurts",
+    rus: "(у кого) болит ~.",
+  },
+  {
+    jap: "かぜ",
+    eng: "cold, flu",
+    rus: "простуда, ОРЗ",
+  },
+  {
+    jap: "それから",
+    eng: "and then",
+    rus: "и ещё",
+  },
+  {
+    jap: "おだいじに。",
+    eng: "Take care / Get well soon.",
+    rus: "Берегите себя! Выздоравливайте! (заключительная реплика врача по окончании приёма больного)",
+  },
+];
+
+export const UNIT18: WordProps[] = [
+  {
+    jap: "できます",
+    eng: "can, be able to",
+    rus: "быть в состоянии, мочь, уметь",
+  },
+  {
+    jap: "あらいます",
+    eng: "to wash",
+    rus: "мыть, стирать",
+  },
+  {
+    jap: "ひきます",
+    eng: "to play (musical instrument)",
+    rus: "играть (на музыкальных инструментах)",
+  },
+  {
+    jap: "うたいます",
+    eng: "to sing",
+    rus: "петь",
+  },
+  {
+    jap: "あつめます",
+    eng: "to collect",
+    rus: "собирать, коллекционировать",
+  },
+  {
+    jap: "すてます",
+    eng: "to throw away",
+    rus: "выбрасывать",
+  },
+  {
+    jap: "かえます",
+    eng: "to exchange, change",
+    rus: "менять, обменивать",
+  },
+  {
+    jap: "うんてんします",
+    eng: "to drive",
+    rus: "водить машину (и др. транспорт)",
+  },
+  {
+    jap: "よやくします",
+    eng: "to reserve, book",
+    rus: "заказывать, бронировать",
+  },
+  {
+    jap: "ピアノ",
+    eng: "piano",
+    rus: "пианино, рояль",
+  },
+  {
+    jap: "〜メートル",
+    eng: "meters",
+    rus: "— метров",
+  },
+  {
+    jap: "げんきん",
+    eng: "cash",
+    rus: "наличные деньги",
+  },
+  {
+    jap: "しゅみ",
+    eng: "hobby",
+    rus: "увлечение, хобби",
+  },
+  {
+    jap: "にっき",
+    eng: "diary",
+    rus: "дневник",
+  },
+  {
+    jap: "おいのり",
+    eng: "prayer",
+    rus: "молитва（〜を します молиться）",
+  },
+  {
+    jap: "かちょう",
+    eng: "section chief",
+    rus: "начальник отдела",
+  },
+  {
+    jap: "ぶちょう",
+    eng: "department head",
+    rus: "начальник департамента",
+  },
+  {
+    jap: "しゃちょう",
+    eng: "company president",
+    rus: "президент компании",
+  },
+  {
+    jap: "どうぶつ",
+    eng: "animal",
+    rus: "животное",
+  },
+  {
+    jap: "うま",
+    eng: "horse",
+    rus: "лошадь",
+  },
+  {
+    jap: "インターネット",
+    eng: "Internet",
+    rus: "Интернет",
+  },
+];
+
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
   "Unit #1": UNIT1,
@@ -1916,4 +2207,6 @@ export const topicWordsMap: Record<string, WordProps[]> = {
   "Unit #14": UNIT14,
   "Unit #15": UNIT15,
   "Unit #16": UNIT16,
+  "Unit #17": UNIT17,
+  "Unit #18": UNIT18,
 };
