@@ -2189,6 +2189,227 @@ export const UNIT18: WordProps[] = [
   },
 ];
 
+export const UNIT19: WordProps[] = [
+  {
+    jap: "のぼります",
+    eng: "to climb, go up",
+    rus: "подниматься, взбираться, восходить",
+  },
+  {
+    jap: "とまります",
+    eng: "to stay overnight",
+    rus: "останавливаться на ночь, ночевать",
+  },
+  {
+    jap: "ホテルにとまります",
+    eng: "to stay at a hotel",
+    rus: "останавливаться [в гостинице]",
+  },
+  {
+    jap: "そうじします",
+    eng: "to clean",
+    rus: "делать уборку, убирать (комнату)",
+  },
+  {
+    jap: "せんたくします",
+    eng: "to wash (clothes)",
+    rus: "стирать (одежду, бельё)",
+  },
+  {
+    jap: "なります",
+    eng: "to become",
+    rus: "становиться (большим), наступить (о временах года)",
+  },
+  {
+    jap: "ねむい",
+    eng: "sleepy",
+    rus: "сонный",
+  },
+  {
+    jap: "つよい",
+    eng: "strong",
+    rus: "сильный",
+  },
+  {
+    jap: "よわい",
+    eng: "weak",
+    rus: "слабый",
+  },
+  {
+    jap: "れんしゅう",
+    eng: "practice",
+    rus: "упражнение（〜をします заниматься, упражняться）",
+  },
+  {
+    jap: "ゴルフ",
+    eng: "golf",
+    rus: "гольф（〜をします играть в гольф）",
+  },
+  {
+    jap: "すもう",
+    eng: "sumo",
+    rus: "борьба сумо（〜をします заниматься сумо）",
+  },
+  {
+    jap: "おちゃ",
+    eng: "tea ceremony",
+    rus: "чайная церемония",
+  },
+  {
+    jap: "ひ",
+    eng: "day, date",
+    rus: "день, дата",
+  },
+  {
+    jap: "ちょうし",
+    eng: "condition, state",
+    rus: "состояние, настроение",
+  },
+  {
+    jap: "いちど",
+    eng: "once",
+    rus: "один раз, однажды",
+  },
+  {
+    jap: "いちども",
+    eng: "not even once",
+    rus: "ни разу, никогда (с отрицанием)",
+  },
+  {
+    jap: "だんだん",
+    eng: "gradually",
+    rus: "постепенно",
+  },
+  {
+    jap: "もうすぐ",
+    eng: "soon",
+    rus: "скоро",
+  },
+  {
+    jap: "おかげさまで",
+    eng: "Thanks to you",
+    rus: "Спасибо за заботу.",
+  },
+  {
+    jap: "でも",
+    eng: "but",
+    rus: "но",
+  },
+  {
+    jap: "かんぱい",
+    eng: "Cheers!",
+    rus: "За ваше здоровье!",
+  },
+  {
+    jap: "ダイエット",
+    eng: "diet",
+    rus: "диета（〜をします сидеть на диете）",
+  },
+  {
+    jap: "むり[な]",
+    eng: "impossible, unreasonable",
+    rus: "чрезмерный, бессмысленный",
+  },
+  {
+    jap: "からだにいい",
+    eng: "good for health",
+    rus: "полезный для здоровья",
+  },
+];
+
+export const UNIT20: WordProps[] = [
+  {
+    jap: "いります",
+    eng: "to need, require",
+    rus: "быть нужным, требоваться",
+  },
+  {
+    jap: "ビザがいります",
+    eng: "to need a visa",
+    rus: "требуется [виза]",
+  },
+  {
+    jap: "しらべます",
+    eng: "to check, investigate",
+    rus: "узнавать, изучать, расследовать, проверять",
+  },
+  {
+    jap: "しゅうりします",
+    eng: "to repair, fix",
+    rus: "исправлять, чинить, ремонтировать",
+  },
+  {
+    jap: "ぼく",
+    eng: "I (used by men)",
+    rus: "я (употребляемый мужчинами разговорный эквивалент わたし)",
+  },
+  {
+    jap: "きみ",
+    eng: "you (used by men)",
+    rus: "ты (употребляемый мужчинами разговорный эквивалент あなた)",
+  },
+  {
+    jap: "〜くん",
+    eng: "Mr. / suffix for young males",
+    rus: "дружочек, товарищ, г-н (эквивалент суффикса 〜さん. Используется только с именами или фамилиями мальчиков, молодых людей или по отношению к младшим мужчинам в мужской речи.)",
+  },
+  {
+    jap: "うん",
+    eng: "yes (casual)",
+    rus: "да, ага (разговорный эквивалент はい)",
+  },
+  {
+    jap: "ううん",
+    eng: "no (casual)",
+    rus: "нет (разговорный эквивалент いいえ)",
+  },
+  {
+    jap: "ことば",
+    eng: "word, language",
+    rus: "слово, язык (японский, русский и т.п.)",
+  },
+  {
+    jap: "きもの",
+    eng: "kimono",
+    rus: "кимоно",
+  },
+  {
+    jap: "ビザ",
+    eng: "visa",
+    rus: "виза",
+  },
+  {
+    jap: "はじめ",
+    eng: "beginning",
+    rus: "начало",
+  },
+  {
+    jap: "おわり",
+    eng: "end",
+    rus: "конец",
+  },
+  {
+    jap: "こっち",
+    eng: "this way, here",
+    rus: "здесь; сюда (разговорный эквивалент указательного местоимения こちら)",
+  },
+  {
+    jap: "そっち",
+    eng: "that way, there (near listener)",
+    rus: "здесь, там, туда (разговорный эквивалент указательного местоимения そちら)",
+  },
+  {
+    jap: "あっち",
+    eng: "over there, that way (far from both)",
+    rus: "там; туда (разговорный эквивалент указательного местоимения あちら)",
+  },
+  {
+    jap: "どっち",
+    eng: "which way, which (of two)",
+    rus: "какой, который (из двух), где, куда (разговорный эквивалент вопросительного местоимения どちら)",
+  },
+];
+
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
   "Unit #1": UNIT1,
@@ -2209,4 +2430,6 @@ export const topicWordsMap: Record<string, WordProps[]> = {
   "Unit #16": UNIT16,
   "Unit #17": UNIT17,
   "Unit #18": UNIT18,
+  "Unit #19": UNIT19,
+  "Unit #20": UNIT20,
 };
