@@ -2408,6 +2408,239 @@ export const UNIT20: WordProps[] = [
     eng: "which way, which (of two)",
     rus: "какой, который (из двух), где, куда (разговорный эквивалент вопросительного местоимения どちら)",
   },
+  {
+    jap: "みんなで",
+    eng: "all together",
+    rus: "все вместе (только в речи о людях)",
+  },
+  {
+    jap: "〜けど",
+    eng: "~, but",
+    rus: "~, но (разговорный эквивалент противительной частицы が)",
+  },
+  {
+    jap: "おなかが いっぱいです",
+    eng: "I'm full (literally: stomach is full)",
+    rus: "быть сытым (дословно: полный живот)",
+  },
+  {
+    jap: "よかったら",
+    eng: "if you’d like / if it’s okay",
+    rus: "если нет возражений",
+  },
+  {
+    jap: "いろいろ",
+    eng: "variously, various",
+    rus: "по-всякому, разнообразно (в качестве наречия)",
+  },
+];
+
+export const UNIT21: WordProps[] = [
+  {
+    jap: "おもいます",
+    eng: "to think, to believe",
+    rus: "думать, считать, полагать",
+  },
+  {
+    jap: "いいます",
+    eng: "to say",
+    rus: "говорить, сказать",
+  },
+  {
+    jap: "かちます",
+    eng: "to win",
+    rus: "побеждать",
+  },
+  {
+    jap: "まけます",
+    eng: "to lose, be defeated",
+    rus: "проигрывать, терпеть поражение",
+  },
+  {
+    jap: "[おまつりが〜]あります",
+    eng: "to be held, take place [festival]",
+    rus: "проводится [праздник]",
+  },
+  {
+    jap: "やくにたちます",
+    eng: "to be useful",
+    rus: "пригодиться, быть полезным",
+  },
+  {
+    jap: "うごきます",
+    eng: "to move, to operate",
+    rus: "работать, функционировать",
+  },
+  {
+    jap: "やめます",
+    eng: "to quit, stop",
+    rus: "закончить, перестать, прекратить",
+  },
+  {
+    jap: "[かいしゃを〜]やめます",
+    eng: "to quit [a company]",
+    rus: "бросить [работу в компании]",
+  },
+  {
+    jap: "きをつけます",
+    eng: "to be careful",
+    rus: "быть внимательным, осторожным",
+  },
+  {
+    jap: "りゅうがくします",
+    eng: "to study abroad",
+    rus: "учиться за границей",
+  },
+  {
+    jap: "むだ[な]",
+    eng: "wasteful, unnecessary",
+    rus: "ненужный, излишний, тщетный",
+  },
+  {
+    jap: "ふべん[な]",
+    eng: "inconvenient",
+    rus: "неудобный",
+  },
+  {
+    jap: "すごい",
+    eng: "amazing, terrible",
+    rus: "Отлично! Ужасно! Вот это да!",
+  },
+  {
+    jap: "ほんとう",
+    eng: "truth",
+    rus: "правда",
+  },
+  {
+    jap: "うそ",
+    eng: "lie",
+    rus: "ложь",
+  },
+  {
+    jap: "じどうしゃ",
+    eng: "automobile",
+    rus: "машина, автомобиль",
+  },
+  {
+    jap: "こうつう",
+    eng: "traffic, transportation",
+    rus: "транспорт, дорожное движение",
+  },
+  {
+    jap: "ぶっか",
+    eng: "prices (consumer goods)",
+    rus: "цены (на потребительские товары)",
+  },
+  {
+    jap: "ほうそう",
+    eng: "broadcasting",
+    rus: "радио-, теле- передача, -вещание",
+  },
+  {
+    jap: "ニュース",
+    eng: "news",
+    rus: "новости",
+  },
+  {
+    jap: "アニメ",
+    eng: "anime",
+    rus: "анимация (японские мультфильмы, аниме)",
+  },
+  {
+    jap: "マンガ",
+    eng: "manga",
+    rus: "комиксы, манга",
+  },
+  {
+    jap: "デザイン",
+    eng: "design",
+    rus: "дизайн",
+  },
+  {
+    jap: "ゆめ",
+    eng: "dream",
+    rus: "мечта; сон",
+  },
+  {
+    jap: "てんさい",
+    eng: "genius",
+    rus: "гений, исключительно одарённый человек; талант, гениальность",
+  },
+  {
+    jap: "しあい",
+    eng: "match, game",
+    rus: "матч, игра（～を します играть (в футбол и т.п.))",
+  },
+  {
+    jap: "いけん",
+    eng: "opinion",
+    rus: "мнение",
+  },
+  {
+    jap: "はなし",
+    eng: "talk, story",
+    rus: "разговор, речь, рассказ（～を します говорить, рассказывать）",
+  },
+  {
+    jap: "ちきゅう",
+    eng: "earth (planet)",
+    rus: "Земля (планета солнечной системы)",
+  },
+  {
+    jap: "つき",
+    eng: "moon",
+    rus: "Луна",
+  },
+  {
+    jap: "さいきん",
+    eng: "recently, lately",
+    rus: "недавно, последнее время",
+  },
+  {
+    jap: "たぶん",
+    eng: "probably",
+    rus: "наверное, может быть",
+  },
+  {
+    jap: "きっと",
+    eng: "by all means, certainly",
+    rus: "непременно, обязательно, наверняка",
+  },
+  {
+    jap: "ほんとうに",
+    eng: "really, truly",
+    rus: "действительно, на самом деле",
+  },
+  {
+    jap: "そんなに",
+    eng: "so much (often with negation)",
+    rus: "так (часто с отрицанием)",
+  },
+  {
+    jap: "〜について",
+    eng: "about ~",
+    rus: "о ~, про ~",
+  },
+  {
+    jap: "ひさしぶりですね。",
+    eng: "Long time no see.",
+    rus: "Давно не виделись.",
+  },
+  {
+    jap: "〜でものみませんか。",
+    eng: "How about having a drink?",
+    rus: "А не выпить ли нам?",
+  },
+  {
+    jap: "もちろん",
+    eng: "of course",
+    rus: "конечно",
+  },
+  {
+    jap: "もうかえらないと……。",
+    eng: "I have to go home now...",
+    rus: "Мне уже нужно (пора) возвращаться.",
+  },
 ];
 
 export const topicWordsMap: Record<string, WordProps[]> = {
@@ -2432,4 +2665,5 @@ export const topicWordsMap: Record<string, WordProps[]> = {
   "Unit #18": UNIT18,
   "Unit #19": UNIT19,
   "Unit #20": UNIT20,
+  "Unit #21": UNIT21,
 };
