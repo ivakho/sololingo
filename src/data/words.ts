@@ -2643,6 +2643,267 @@ export const UNIT21: WordProps[] = [
   },
 ];
 
+export const UNIT22: WordProps[] = [
+  {
+    jap: "きます",
+    eng: "put on (upper body clothes)",
+    rus: "надевать (одежду на верхнюю часть тела)",
+  },
+  {
+    jap: "はきます",
+    eng: "put on (lower body clothes / shoes)",
+    rus: "надевать (одежду на нижнюю часть тела, а также обувь)",
+  },
+  {
+    jap: "かぶります",
+    eng: "put on (headwear)",
+    rus: "надевать (головной убор)",
+  },
+  {
+    jap: "かけます",
+    eng: "put on, hang [glasses]",
+    rus: "надевать, навешивать [очки]",
+  },
+  {
+    jap: "します",
+    eng: "put on, fasten [tie]",
+    rus: "прикалывать, повязывать [галстук]",
+  },
+  {
+    jap: "うまれます",
+    eng: "be born",
+    rus: "родиться",
+  },
+  {
+    jap: "わたしたち",
+    eng: "we",
+    rus: "мы",
+  },
+  {
+    jap: "コート",
+    eng: "coat",
+    rus: "пальто",
+  },
+  {
+    jap: "セーター",
+    eng: "sweater",
+    rus: "свитер",
+  },
+  {
+    jap: "スーツ",
+    eng: "suit",
+    rus: "костюм",
+  },
+  {
+    jap: "ぼうし",
+    eng: "hat",
+    rus: "головной убор (шапка, шляпа и т.д.)",
+  },
+  {
+    jap: "めがね",
+    eng: "glasses",
+    rus: "очки",
+  },
+  {
+    jap: "ケーキ",
+    eng: "cake",
+    rus: "торт, пирожное",
+  },
+  {
+    jap: "おべんとう",
+    eng: "bento (boxed lunch)",
+    rus: "(о-) бэнто, коробка с готовым обедом",
+  },
+  {
+    jap: "ロボット",
+    eng: "robot",
+    rus: "робот",
+  },
+  {
+    jap: "ユーモア",
+    eng: "humor",
+    rus: "юмор",
+  },
+  {
+    jap: "つごう",
+    eng: "circumstances, convenience",
+    rus: "обстоятельства, ситуация, обстановка",
+  },
+  {
+    jap: "よく",
+    eng: "often",
+    rus: "часто",
+  },
+  {
+    jap: "えーと",
+    eng: "uh..., let me see...",
+    rus: "так (междометие)",
+  },
+  {
+    jap: "おめでとうございます",
+    eng: "Congratulations!",
+    rus: "Поздравляю! (при поздравлении с днём рождения, свадьбой, Новым годом и др. событиями.)",
+  },
+  {
+    jap: "おさがしですか",
+    eng: "Are you looking for ~?",
+    rus: "Вы ищете ..... ?",
+  },
+  {
+    jap: "では",
+    eng: "well then..., in that case",
+    rus: "Тогда .... В таком случае ....",
+  },
+  {
+    jap: "こちら",
+    eng: "this (polite)",
+    rus: "это (учтиво-вежливый эквивалент これ)",
+  },
+  {
+    jap: "やちん",
+    eng: "rent (for apartment)",
+    rus: "арендная плата за квартиру",
+  },
+  {
+    jap: "ダイニングキッチン",
+    eng: "dining kitchen",
+    rus: "кухня-столовая",
+  },
+  {
+    jap: "わしつ",
+    eng: "Japanese-style room",
+    rus: "комната в японском стиле",
+  },
+  {
+    jap: "おしいれ",
+    eng: "closet (sliding door)",
+    rus: "стенной шкаф",
+  },
+  {
+    jap: "ふとん",
+    eng: "futon",
+    rus: "матрас для сна на полу на циновках",
+  },
+];
+
+export const UNIT23: WordProps[] = [
+  {
+    jap: "ききます",
+    eng: "ask",
+    rus: "спрашивать, задавать вопрос",
+  },
+  {
+    jap: "まわします",
+    eng: "turn, rotate",
+    rus: "поворачивать, вертеть (руль, ручку и т.п.)",
+  },
+  {
+    jap: "ひきます",
+    eng: "pull",
+    rus: "тянуть",
+  },
+  {
+    jap: "かえます",
+    eng: "change, alter",
+    rus: "менять, изменять",
+  },
+  {
+    jap: "さわります",
+    eng: "touch",
+    rus: "трогать, прикасаться [к двери]",
+  },
+  {
+    jap: "でます",
+    eng: "go out, appear",
+    rus: "выходить, появляться [сдача]",
+  },
+  {
+    jap: "あるきます",
+    eng: "walk",
+    rus: "идти, ходить пешком",
+  },
+  {
+    jap: "わたります",
+    eng: "cross",
+    rus: "переходить [по мосту]",
+  },
+  {
+    jap: "まがります",
+    eng: "turn, bend",
+    rus: "сгибаться, огибать, поворачивать [направо]",
+  },
+  {
+    jap: "さびしい",
+    eng: "lonely, sad",
+    rus: "грустный",
+  },
+  {
+    jap: "おゆ",
+    eng: "hot water",
+    rus: "горячая вода, кипяток",
+  },
+  {
+    jap: "おと",
+    eng: "sound",
+    rus: "звук",
+  },
+  {
+    jap: "サイズ",
+    eng: "size",
+    rus: "размер",
+  },
+  {
+    jap: "こしょう",
+    eng: "malfunction, breakdown",
+    rus: "неисправность, авария (〜します ломаться)",
+  },
+  {
+    jap: "みち",
+    eng: "road, street",
+    rus: "дорога, улица",
+  },
+  {
+    jap: "こうさてん",
+    eng: "intersection",
+    rus: "перекрёсток",
+  },
+  {
+    jap: "しんごう",
+    eng: "traffic light",
+    rus: "светофор",
+  },
+  {
+    jap: "かど",
+    eng: "corner (outside)",
+    rus: "угол (внешний, угол дома и т.п.)",
+  },
+  {
+    jap: "はし",
+    eng: "bridge",
+    rus: "мост",
+  },
+  {
+    jap: "ちゅうしゃじょう",
+    eng: "parking lot",
+    rus: "автостоянка, парковка",
+  },
+  {
+    jap: "たてもの",
+    eng: "building",
+    rus: "здание",
+  },
+  {
+    jap: "なんかいも",
+    eng: "many times",
+    rus: "много раз, не раз",
+  },
+  {
+    jap: "〜め",
+    eng: "ordinal number suffix",
+    rus: "(какой)-й по счёту — суффикс порядковых числительных",
+  },
+];
+
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
   "Unit #1": UNIT1,
@@ -2666,4 +2927,6 @@ export const topicWordsMap: Record<string, WordProps[]> = {
   "Unit #19": UNIT19,
   "Unit #20": UNIT20,
   "Unit #21": UNIT21,
+  "Unit #22": UNIT22,
+  "Unit #23": UNIT23,
 };
