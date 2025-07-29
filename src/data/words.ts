@@ -2904,6 +2904,177 @@ export const UNIT23: WordProps[] = [
   },
 ];
 
+export const UNIT24: WordProps[] = [
+  {
+    jap: "くれます",
+    eng: "give (to me)",
+    rus: "давать (мне)",
+  },
+  {
+    jap: "なおします",
+    eng: "fix, repair",
+    rus: "исправлять, чинить",
+  },
+  {
+    jap: "つれて いきます",
+    eng: "take (someone) along",
+    rus: "брать с собой, идти в сопровождении",
+  },
+  {
+    jap: "つれて きます",
+    eng: "bring (someone) along",
+    rus: "приводить с собой, приходить с кем-то",
+  },
+  {
+    jap: "おくります",
+    eng: "escort, accompany",
+    rus: "провожать (до станции, до дома и т.п.) [человека]",
+  },
+  {
+    jap: "しょうかいします",
+    eng: "introduce",
+    rus: "представлять, знакомить",
+  },
+  {
+    jap: "あんないします",
+    eng: "guide, show around",
+    rus: "показывать, знакомить (с чем-либо)",
+  },
+  {
+    jap: "せつめいします",
+    eng: "explain",
+    rus: "объяснять",
+  },
+  {
+    jap: "おじいさん／おじいちゃん",
+    eng: "grandfather, old man",
+    rus: "дедушка, пожилой мужчина",
+  },
+  {
+    jap: "おばあさん／おばあちゃん",
+    eng: "grandmother, old woman",
+    rus: "бабушка, пожилая женщина",
+  },
+  {
+    jap: "じゅんび",
+    eng: "preparation",
+    rus: "подготовка (～[を] します — готовить [~ся])",
+  },
+  {
+    jap: "ひっこし",
+    eng: "moving (to a new place)",
+    rus: "переезд (～[を] します — переезжать на новую квартиру и т.п.)",
+  },
+  {
+    jap: "おかし",
+    eng: "sweets, snacks",
+    rus: "сладости, конфеты",
+  },
+  {
+    jap: "ホームステイ",
+    eng: "homestay",
+    rus: "жить на пансионе в семье",
+  },
+  {
+    jap: "ぜんぶ",
+    eng: "all, everything",
+    rus: "всё (обобщающее местоимение; не употребляется по отношению к людям)",
+  },
+  {
+    jap: "じぶんで",
+    eng: "by oneself",
+    rus: "(делать) самому",
+  },
+  {
+    jap: "ほかに",
+    eng: "besides",
+    rus: "кроме того",
+  },
+];
+
+export const UNIT25: WordProps[] = [
+  {
+    jap: "かんがえます",
+    eng: "think, consider",
+    rus: "думать, полагать, считать",
+  },
+  {
+    jap: "つきます",
+    eng: "arrive",
+    rus: "прибывать, приходить",
+  },
+  {
+    jap: "とります",
+    eng: "grow old",
+    rus: "становиться старше",
+  },
+  {
+    jap: "たります",
+    eng: "be enough, be sufficient",
+    rus: "хватать, быть достаточным",
+  },
+  {
+    jap: "いなか",
+    eng: "countryside, hometown",
+    rus: "сельская местность, (родная) деревня",
+  },
+  {
+    jap: "チャンス",
+    eng: "chance",
+    rus: "шанс",
+  },
+  {
+    jap: "おく",
+    eng: "hundred million",
+    rus: "сто миллионов",
+  },
+  {
+    jap: "もし [〜たら]",
+    eng: "if ~",
+    rus: "если ~",
+  },
+  {
+    jap: "いみ",
+    eng: "meaning",
+    rus: "значение, смысл",
+  },
+  {
+    jap: "もしもし",
+    eng: "Hello! (on the phone)",
+    rus: "Алло!",
+  },
+  {
+    jap: "てんどう",
+    eng: "transfer (to another office)",
+    rus: "перевод в другой офис компании",
+  },
+  {
+    jap: "こと",
+    eng: "thing, matter",
+    rus: "дело, вопрос",
+  },
+  {
+    jap: "ひま",
+    eng: "free time",
+    rus: "свободное время",
+  },
+  {
+    jap: "いろいろ おせわに なりました。",
+    eng: "Thank you for everything you’ve done.",
+    rus: "Спасибо за вашу заботу. / Вы так много для меня сделали.",
+  },
+  {
+    jap: "がんばります",
+    eng: "do one’s best, try hard",
+    rus: "стараться",
+  },
+  {
+    jap: "どうぞ おげんきで。",
+    eng: "Best of luck.",
+    rus: "Всего вам наилучшего. (перед расставанием)",
+  },
+];
+
 export const topicWordsMap: Record<string, WordProps[]> = {
   "Date numbers": DATES,
   "Unit #1": UNIT1,
@@ -2929,4 +3100,6 @@ export const topicWordsMap: Record<string, WordProps[]> = {
   "Unit #21": UNIT21,
   "Unit #22": UNIT22,
   "Unit #23": UNIT23,
+  "Unit #24": UNIT24,
+  "Unit #25": UNIT25,
 };
