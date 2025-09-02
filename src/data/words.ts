@@ -3044,7 +3044,7 @@ export const UNIT25: WordProps[] = [
     rus: "Алло!",
   },
   {
-    jap: "てんどう",
+    jap: "てんきん",
     eng: "transfer (to another office)",
     rus: "перевод в другой офис компании",
   },
